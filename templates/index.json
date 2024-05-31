@@ -1,0 +1,549 @@
+{
+  "sections": {
+    "hero_FeGqHA": {
+      "type": "hero",
+      "blocks": {
+        "heading_9C6qVG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Meet Lotus",
+            "heading_size": "h1"
+          }
+        },
+        "text_y4QRk3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A wearable ring that controls objects at home by pointing.<\/p>"
+          }
+        },
+        "button_emVFnk": {
+          "type": "button",
+          "settings": {
+            "button_label": "pre-order now",
+            "button_link": "shopify:\/\/products\/pre-order-lotus-ring-3-switch-covers"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9C6qVG",
+        "text_y4QRk3",
+        "button_emVFnk"
+      ],
+      "custom_css": [
+        ".image-with-text__heading.h1 {font-size: 80px; font-weight: 500; margin-bottom: 12px;}",
+        "p {font-family: tenon, sans serif; font-size: 24px !important; max-width: 350px; line-height: 130%;}",
+        ".button--underline {border-bottom: 0px; border-radius: 6px; padding-left: 40px; padding-right: 40px; padding-top: 20px; padding-bottom: 20px; background: #63cba3;}",
+        ".svg.svg__arrow {margin-right: 20px; display: none;}",
+        "@media only screen and (max-width: 600px) {.image-with-text__heading.h1 {font-size: 60px !important; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/product_hero.png",
+        "layout": "left-alignment"
+      }
+    },
+    "image_gallery_btxwrX": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_qMwJXq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/washington-post_pb.png",
+            "title": "",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_kAf6kH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/techcrunch_pb.png",
+            "title": "",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_fbw6in": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wired_pb.png",
+            "title": "",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_R4Ra9x": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sxsw_pb.png",
+            "title": "",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_FhHHDx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pitch_pb.png",
+            "title": "",
+            "caption": "",
+            "link": ""
+          }
+        },
+        "image_YpNWeU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/techrader_pb.png",
+            "title": "",
+            "caption": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_qMwJXq",
+        "image_kAf6kH",
+        "image_fbw6in",
+        "image_R4Ra9x",
+        "image_FhHHDx",
+        "image_YpNWeU"
+      ],
+      "custom_css": [
+        ".image-gallery {grid-template-columns: repeat(6, 1fr);}",
+        " {padding-top: 50px;}",
+        "h3 {font-weight: 400 !important;}",
+        "@media (max-width: 600px) {.image-gallery {grid-template-columns: repeat(3, 1fr); grid-column-gap: 20px; grid-row-gap: 10px; }}"
+      ],
+      "settings": {
+        "title": "As Seen On",
+        "seo_h_tag": "h3"
+      }
+    },
+    "1632399018db751388": {
+      "type": "slider-vertical",
+      "settings": {
+        "text_size": "large",
+        "blending_modes": true
+      }
+    },
+    "1632399157698a4648": {
+      "type": "video-popup",
+      "custom_css": [
+        "{margin-bottom: 25px;}",
+        ".section-header__title.h4 {font-size: 24px !important; font-weight: 400 !important;}"
+      ],
+      "settings": {
+        "title": "See Lotus in Action",
+        "video": "https:\/\/youtu.be\/zsckMOaWnaE",
+        "image": "shopify:\/\/shop_images\/video_thumb_61145121-5187-441e-8be4-2e6781181129.png",
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_waDDPm": {
+      "type": "rich-text",
+      "blocks": {
+        "button_UVtmdM": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "descriptive transcript",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_UVtmdM"
+      ],
+      "custom_css": [
+        "div {padding-top: 0px;}",
+        ".button--underline {font-family: tenon, sans serif;}"
+      ],
+      "settings": {
+        "text_alignment": "left"
+      }
+    },
+    "heading_KiqxfU": {
+      "type": "heading",
+      "custom_css": [
+        "div {padding-top: 20px; padding-bottom: 20px;}",
+        "@media screen and (max-width: 599px) {div {padding-bottom: 12px; }}"
+      ],
+      "settings": {
+        "title": "",
+        "content": "<h2>Why It's a Game-Changer<\/h2>",
+        "button_label": "",
+        "button_link": "",
+        "text_alignment": "center",
+        "text_size": "large",
+        "seo_h_tag": "h2"
+      }
+    },
+    "image_with_text_UYn6g9": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_c3NXtk": {
+          "type": "heading",
+          "settings": {
+            "heading": "Home to smart home in seconds",
+            "heading_size": "h2"
+          }
+        },
+        "text_q7grFm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Lotus Ring functions like a remote, controlling lights, fans, and the TV with infrared technology. Conveniently worn on your finger, it's lightweight, waterproof, and with you at all times.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_c3NXtk",
+        "text_q7grFm"
+      ],
+      "custom_css": [
+        ".img.lazy.lazyloaded {border-radius: 20px 20px 0px 20px;}",
+        ".image-with-text__heading.h2 {min-width: 300px; max-width: 400px; margin-bottom: 40px;}",
+        " {padding-bottom: 70px;}",
+        ".image-with-text__description.rte {max-width: 400px;}",
+        "@media only screen and (max-width: 600px) {.image-with-text__heading.h2 {max-width: 300px; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Frame_11.png",
+        "layout": "right-alignment"
+      }
+    },
+    "image_with_text_jdqCFB": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_fxYeUL": {
+          "type": "heading",
+          "settings": {
+            "heading": "No internet, no apps, no rewiring",
+            "heading_size": "h2"
+          }
+        },
+        "text_YHdxpm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lotus is an intentionally simplified ecosystem for home control. With magnetically attachable Lotus Switch Covers, you can save over 11 hours of work and 70% off typical smart home cost.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fxYeUL",
+        "text_YHdxpm"
+      ],
+      "custom_css": [
+        ".img.lazy.lazyloaded {border-radius: 0px 20px 20px 20px;}",
+        ".image-with-text__heading.h2 {max-width: 400px; margin-bottom: 40px;}",
+        " {padding-bottom: 70px;}",
+        ".image-with-text__description.rte {max-width: 400px;}",
+        "@media only screen and (max-width: 600px) {.image-with-text__heading.h2 {max-width: 300px; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Frame_12.png",
+        "layout": "left-alignment"
+      }
+    },
+    "image_with_text_4PyFWT": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_WqpzFG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Take it anywhere",
+            "heading_size": "h2"
+          }
+        },
+        "text_B7AR4W": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bring Lotus with you, wherever life takes you - as an owner, renter, or visitor. It is universal—loved ones can use their Lotus Ring & Switch Covers in your home, and you in theirs.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WqpzFG",
+        "text_B7AR4W"
+      ],
+      "custom_css": [
+        ".img.lazy.lazyloaded {border-radius: 20px 20px 0px 20px;}",
+        ".image-with-text__heading.h2 {max-width: 400px; margin-bottom: 40px;}",
+        ".image-with-text__description.rte {max-width: 450px;}",
+        "@media only screen and (max-width: 600px) {.image-with-text__heading.h2 {max-width: 300px; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Frame_13.png",
+        "layout": "right-alignment"
+      }
+    },
+    "heading_QMDCpD": {
+      "type": "heading",
+      "custom_css": [
+        "div {padding-top: 25px; padding-bottom: 25px;}",
+        " {margin-bottom: 0px;}",
+        "@media screen and (max-width: 599px) {div {padding-bottom: 12px; }}"
+      ],
+      "settings": {
+        "title": "",
+        "content": "<h2>How It Works<\/h2>",
+        "button_label": "",
+        "button_link": "",
+        "text_alignment": "center",
+        "text_size": "large",
+        "seo_h_tag": "h2"
+      }
+    },
+    "images_with_text_slider_jjPfpL": {
+      "type": "images-with-text-slider",
+      "blocks": {
+        "image_CEmAne": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lotus_How_to_Step-1_360px.gif",
+            "heading": "Step 1",
+            "description": "<h4>Put on the Lotus Ring<\/h4><p>Replace smart speakers in every room with a single wearable ring. Lightweight and waterproof- it’s your subtle but durable home remote.<\/p>"
+          }
+        },
+        "image_4YYEe9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lotus_How_to_Step-2_360px.gif",
+            "heading": "Step 2",
+            "description": "<h4>Snap on Lotus Switch Cover<\/h4><p>Attach magnetically to any existing wall switch in seconds. Easily adapts with evolving needs and preferences around the home.<\/p>"
+          }
+        },
+        "image_9GHRTw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lotus_How_to_Step-3_360px.gif",
+            "heading": "Step 3",
+            "description": "<h4>Point and Click<\/h4><p>All Lotus Rings are compatible with all Lotus Switch Covers. And with a range of 30 feet, no switch is out of reach. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_CEmAne",
+        "image_4YYEe9",
+        "image_9GHRTw"
+      ],
+      "custom_css": [
+        ".images-with-text-slider__title {font-family: tenon, sans serif !important; font-size: 18px !important; text-transform: uppercase; font-weight: 500 !important;}",
+        ".images-with-text-slider__description.rte {margin-top: 1.5em;}",
+        "h4 {margin-bottom: 0.5em;}",
+        " {margin-bottom: 100px;}"
+      ],
+      "settings": {
+        "title": "",
+        "gallery_aspect": "1",
+        "seo_h_tag": "h4"
+      }
+    },
+    "rich_text_KMUFzA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_tNX9zx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Who We Are",
+            "heading_size": "h4"
+          }
+        },
+        "text_RKFiT9": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>ex-Apple Founder + Big Tech Engineers + Domain Experts<\/h3>"
+          }
+        },
+        "button_fNMhp6": {
+          "type": "button",
+          "settings": {
+            "button_label": "About Us",
+            "button_link": "shopify:\/\/pages\/contact"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tNX9zx",
+        "text_RKFiT9",
+        "button_fNMhp6"
+      ],
+      "custom_css": [
+        "{padding-top: 100px; padding-bottom: 100px; background: #f1e6d9;}"
+      ],
+      "settings": {
+        "text_alignment": "center"
+      }
+    },
+    "testimonials_xFtVjw": {
+      "type": "testimonials",
+      "blocks": {
+        "text_qDBQmP": {
+          "type": "text",
+          "settings": {
+            "quote_content": "<p>Parents would benefit. People with disabilities. The whole population.<\/p>",
+            "quote_author": "Leah R.",
+            "quote_caption": "",
+            "quote_avatar": "shopify:\/\/shop_images\/Talent-2.jpg"
+          }
+        },
+        "text_x8D8KD": {
+          "type": "text",
+          "settings": {
+            "quote_content": "<p>When my in-laws come to our house, they can manage the lights and space. <\/p>",
+            "quote_author": "Mohamed K.",
+            "quote_caption": "",
+            "quote_avatar": "shopify:\/\/shop_images\/Talent-47_e18d48e9-434c-4fe5-8809-3021bf0e6d26.jpg"
+          }
+        },
+        "text_7gAQqG": {
+          "type": "text",
+          "settings": {
+            "quote_content": "<p>You just slip it on, you don't think about it. It's not intrusive, it's not invasive.<\/p>",
+            "quote_author": "Marcus W.",
+            "quote_caption": "",
+            "quote_avatar": "shopify:\/\/shop_images\/Frame_13.png"
+          }
+        }
+      },
+      "block_order": [
+        "text_qDBQmP",
+        "text_x8D8KD",
+        "text_7gAQqG"
+      ],
+      "custom_css": [
+        "{margin-top: 120px; margin-bottom: 120px;}",
+        ".section-header__title.h4 {font-size: 24px !important; font-weight: 400 !important;}",
+        "p {font-size: 48px !important; font-weight: 500; max-width: 900px;}",
+        "@media (max-width: 600px) {p {font-size: 32px !important; }}"
+      ],
+      "settings": {
+        "title": "What Folks are Saying",
+        "text_alignment": "left",
+        "seo_h_tag": "h2"
+      }
+    },
+    "16323991613c782d33": {
+      "type": "featured-product",
+      "blocks": {
+        "16323991613c782d33-0": {
+          "type": "header",
+          "settings": {
+            "show_vendor": false,
+            "show_reviews": false,
+            "show_tax_info": false,
+            "show_sku": false,
+            "show_barcode": false,
+            "stick_product_header_on_mobile": true
+          }
+        },
+        "variant_picker_CWXHKQ": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "variants_style": "radio",
+            "show_color_swatches": true,
+            "show_quantities": "no"
+          }
+        },
+        "buy_buttons_KAb3dA": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_quantity_selector": true,
+            "show_preorder_label": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "16323991613c782d33-3": {
+          "type": "product_link",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "16323991613c782d33-0",
+        "variant_picker_CWXHKQ",
+        "buy_buttons_KAb3dA",
+        "16323991613c782d33-3"
+      ],
+      "custom_css": [
+        "{background: #112e40; color: #f8f3ee; margin-bottom: 0px; padding-top: 100px; padding-bottom: 100px;}",
+        ".product__title.h2 {max-width: 300px;}",
+        ".product__add-to-cart.button.button--border {background: #63cba3; width: 100vw;}",
+        ".product__quantity {display: none;}",
+        ".featured-product-link {color: #f8f3ee;}",
+        ".simple-arrow svg path {fill: #f8f3ee;}",
+        ".product-variant__container .product-variant__item label span {border: 2px solid; border-color: #f8f3ee;}",
+        ".product-variant__container .product-variant__item input:checked + label {border-color: #f8f3ee;}"
+      ],
+      "settings": {
+        "product": "pre-order-lotus-ring-3-switch-covers",
+        "media_aspect": "1.33333",
+        "enable_zoom": false,
+        "enable_video_looping": false
+      }
+    },
+    "text_columns_with_icons_nMxYWY": {
+      "type": "text-columns-with-icons",
+      "blocks": {
+        "text_icon_QMH8QM": {
+          "type": "text-icon",
+          "settings": {
+            "title": "Minimal Charging",
+            "body": "<p>Charge Lotus less than five times a year. 90-day battery life and one-hour charge time minimizes interruption.<\/p>",
+            "select_icon": "open-box",
+            "custom_icon": "shopify:\/\/shop_images\/charge_battery_f47e6f9a-2f72-40e1-8143-cfa9c7b7febd.svg"
+          }
+        },
+        "text_icon_NYVAC8": {
+          "type": "text-icon",
+          "settings": {
+            "title": "1-Time Payment",
+            "body": "<p>Enjoy Lotus for life with a single payment—no hidden fees, no draining subscriptions.<\/p>",
+            "select_icon": "time-limit",
+            "custom_icon": "shopify:\/\/shop_images\/cash_and_coin_4b8925f2-f581-4ee1-ae45-df936cf12b98.svg"
+          }
+        },
+        "text_icon_ViNP33": {
+          "type": "text-icon",
+          "settings": {
+            "title": "Private",
+            "body": "<p>No internet connection needed. Lotus is completely offline, keeping you and your data secure. <\/p>",
+            "select_icon": "store",
+            "custom_icon": "shopify:\/\/shop_images\/lock.svg"
+          }
+        }
+      },
+      "block_order": [
+        "text_icon_QMH8QM",
+        "text_icon_NYVAC8",
+        "text_icon_ViNP33"
+      ],
+      "custom_css": [
+        "{background: #112e40; color: #f8f3ee; padding-bottom: 100px; margin-bottom: 0px;}",
+        "p {color: #f8f3ee; max-width: 400px;}",
+        ".text-w-icon__icon {margin-left: -8px;}",
+        "h4 {font-weight: 500;}"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "hero_FeGqHA",
+    "image_gallery_btxwrX",
+    "1632399018db751388",
+    "1632399157698a4648",
+    "rich_text_waDDPm",
+    "heading_KiqxfU",
+    "image_with_text_UYn6g9",
+    "image_with_text_jdqCFB",
+    "image_with_text_4PyFWT",
+    "heading_QMDCpD",
+    "images_with_text_slider_jjPfpL",
+    "rich_text_KMUFzA",
+    "testimonials_xFtVjw",
+    "16323991613c782d33",
+    "text_columns_with_icons_nMxYWY"
+  ]
+}

@@ -1,0 +1,405 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "no_margins": true,
+        "reduced_margins": true
+      }
+    },
+    "heading_wEwrkP": {
+      "type": "heading",
+      "custom_css": [
+        ".section-header__title.h4 {font-weight: 400 !important; margin-bottom: 40px;}",
+        " {margin-top: 100px;}",
+        "h3 {max-width: 900px; font-size: 64px;}",
+        "@media only screen and (max-width: 600px) {h3 {font-size: 44px; }}"
+      ],
+      "settings": {
+        "title": "Our Mission",
+        "content": "<h3>We build technology that is usable by everybody by optimizing for disability first.<\/h3>",
+        "button_label": "",
+        "button_link": "",
+        "text_alignment": "left",
+        "text_size": "large",
+        "seo_h_tag": "h1"
+      }
+    },
+    "rich_text_zFXL6k": {
+      "type": "rich-text",
+      "blocks": {
+        "text_hAN8HA": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Our products operate seamlessly in the background, appearing only when needed. Recognizing that technology is a means, not an end, our true focus is improving human lives. We prioritize universal and inclusive design from the start, creating solutions that empower all users in their living spaces.<\/h4>"
+          }
+        }
+      },
+      "block_order": [
+        "text_hAN8HA"
+      ],
+      "custom_css": [
+        "h4 {max-width: 800px; font-weight: 400;}",
+        " {padding-bottom: 50px;}"
+      ],
+      "settings": {
+        "text_alignment": "left"
+      }
+    },
+    "image_with_text_W9KLyX": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_jRJcVC": {
+          "type": "heading",
+          "settings": {
+            "heading": "A note from our founder",
+            "heading_size": "h2"
+          }
+        },
+        "text_D9ra86": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lotus’ story starts with me - I was born with twisted knees. And over the years I've been on and off crutches.<\/p><p>One night I got into bed, having left the lights on. But I was too tired to get on my crutches, hobble ten feet, turn off the light, and hobble back to bed. So I slept with the lights on — the entire night.<\/p><p>I didn't sleep well, and woke up thinking - if an Apple engineer like me doesn't have smart home tech in their own home, who does?<\/p><p>So that's our mission now - to build tech usable by everyone, simply by <em>optimizing<\/em> for disability first.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jRJcVC",
+        "text_D9ra86"
+      ],
+      "custom_css": [
+        ".img.lazy.lazyloaded {border-radius: 20px 20px 0px 20px;}",
+        ".image-with-text__heading.h2 {max-width: 300px; margin-bottom: 40px;}",
+        " {padding-bottom: 100px; padding-top: 100px; background: #f1e6d9;}",
+        ".image-with-text__description.rte {max-width: 500px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/dhaval.png",
+        "layout": "right-alignment"
+      }
+    },
+    "heading_xYT6Pb": {
+      "type": "heading",
+      "custom_css": [
+        "h4 {max-width: 950px; font-weight: 400;}",
+        ".section-header__title.h4 {font-size: 48px !important; font-weight: 500px !important;}"
+      ],
+      "settings": {
+        "title": "Our Team",
+        "content": "<h4>Founded in 2021, Lotus has since grown to be a passionate group of experts in engineering, healthcare, disability, and design. We are a California-based technology company, on a mission to shape the future (and status quo) of consumer hardware. <\/h4>",
+        "button_label": "",
+        "button_link": "",
+        "text_alignment": "left",
+        "text_size": "large",
+        "seo_h_tag": "h2"
+      }
+    },
+    "image_gallery_nqmbDL": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_VfiyGh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Team_Profile_Dhaval-Patel.png",
+            "title": "Dhaval Patel",
+            "caption": "<h6>Founder & CEO<\/h6><p><br\/>Former Apple Senior Manager + Lutron, GA Tech Alumni, 37 patents<\/p>",
+            "link": "https:\/\/www.linkedin.com\/in\/dhaval-c-patel\/"
+          }
+        },
+        "image_hxeWEP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Team_Profile_Preeti-Pratap.png",
+            "title": "Preeti Pratap",
+            "caption": "<h6>Head of Product<\/h6><p><br\/>Former Linde (Healthcare), 2 nanotech publications<\/p>",
+            "link": "https:\/\/www.linkedin.com\/in\/preetipratap"
+          }
+        },
+        "image_ebeL3B": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Team_Profile_Andrew-Le.png",
+            "title": "Andrew Le",
+            "caption": "<h6>Head of Mechanical Engineering<\/h6><p>Former Amazon Tech Lead + Blackberry + Doppler (wearable startup)<\/p>",
+            "link": "https:\/\/www.linkedin.com\/in\/andrewple\/"
+          }
+        },
+        "image_BJWEdC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Team_Profile_Mike-Federwisch.png",
+            "title": "Mike Federwisch",
+            "caption": "<h6>Head of Firmware Engineering<\/h6><p>Former NetApp + Sun Microsystems, 44 patents<\/p>",
+            "link": "http:\/\/www.linkedin.com\/in\/mike-federwisch"
+          }
+        },
+        "image_JbacXJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Team_Profile_Natalie-Shearer.png",
+            "title": "Natalie Shearer CPACC",
+            "caption": "<h6>Head of Accessibility & Operations<\/h6><p>Certified Professional in Accessibility Core Competencies @ IAAP, UBC Alumni<\/p>",
+            "link": "https:\/\/www.linkedin.com\/in\/natalie-shearer-met-cpacc\/"
+          }
+        },
+        "image_KYmHLF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Team_Profile_Juan_Rosales.png",
+            "title": "Juan Rosales LNHA",
+            "caption": "<h6>Head of Partnerships <\/h6><p>Former Life Care Services, Board Certified Long Term Care Administrator<\/p>",
+            "link": "https:\/\/www.linkedin.com\/in\/juanrosales\/"
+          }
+        },
+        "image_QyNnTb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Team_Profile_Rahul-Sawant.png",
+            "title": "Rahul Sawant",
+            "caption": "<h6>Head of Creative<\/h6><p>Former Intuit + Visa, <br\/>E2E Brand Experience<\/p>",
+            "link": "https:\/\/www.linkedin.com\/in\/rahulsawantdesign\/"
+          }
+        },
+        "image_kDwAtD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Team_Profile_Josef-Bismanofsky.png",
+            "title": "Josef Bismanovsky",
+            "caption": "<h6>Tooling Lead<\/h6><p>Former Apple + Amazon + Microsoft + Facebook<\/p>",
+            "link": "https:\/\/www.linkedin.com\/in\/josef-bismanovsky-19b5472b\/"
+          }
+        },
+        "image_FfedP4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Team_Profile_Philip-Kyeswa.png",
+            "title": "Philip Kyeswa",
+            "caption": "<h6>Electrical Engineer<\/h6><p>Former Peec Energy, Africa Prize for Engineering Alumni, ﻿R&D Specialist<\/p>",
+            "link": "https:\/\/www.linkedin.com\/in\/philipkyeswa\/"
+          }
+        },
+        "image_wMacaM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Team_Profile_Vaibhav-Mistry.png",
+            "title": "Vaibhav Mistry",
+            "caption": "<h6>Electrical Engineer<\/h6><p>Former Lutron + Fitbit + Amazon Lab 126 (Kindle + Alexa Smart Home)<\/p>",
+            "link": "https:\/\/www.linkedin.com\/in\/vaibhav-mistry-200a6221\/"
+          }
+        },
+        "image_KnyjFb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Team_Profile_Masami-Tsukamoto.png",
+            "title": "Masami Tsukamoto",
+            "caption": "<h6>Software Engineer<\/h6><p>Former Lucid Motors + Motorola, 25+ years experience<\/p>",
+            "link": "https:\/\/www.linkedin.com\/in\/masami\/"
+          }
+        },
+        "image_gpzGAA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Team_Profile_Bryan-Onyenghan_7521b7e6-962d-46ca-a4cc-10fc26fd6f14.png",
+            "title": "Bryan Onyenghan",
+            "caption": "<h6>Digital Experience Support<\/h6><p>Former Jupita Academy, responsive web design + digital accessibility<\/p>",
+            "link": "https:\/\/www.linkedin.com\/in\/bryan-temple\/"
+          }
+        },
+        "image_ALprFA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Team_Profile_Amanda-Ray.png",
+            "title": "Amanda Ray NP",
+            "caption": "<h6>Nurse Practitioner<\/h6><p>Walmart Health, Health Informatics Specialist, Board Certified NP<\/p>",
+            "link": "https:\/\/www.linkedin.com\/in\/amanda-ray-mba-msn-aprn-fnp-c-cphq-6b97a0198\/"
+          }
+        },
+        "image_yQDNrG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Team_Profile_Tobi-Falayi_00f82c20-7aa2-485c-a361-9ca22aeae98b.png",
+            "title": "Tobi Falayi",
+            "caption": "<p>Community Manager<br\/><br\/>Former Wildreams Marketing, Social Media Strategist<\/p>",
+            "link": "https:\/\/www.linkedin.com\/in\/falayi-oluwatobi-faith-327089151\/"
+          }
+        },
+        "image_KUWW7m": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Team_Profile_Kelly-Liddle_f0ba432a-107e-451c-a1db-957095e755b5.png",
+            "title": "Kelly Liddle RN BSN",
+            "caption": "<h6>Registered Nurse<\/h6><p>Stormont Vail Health, Care Manager, 20+ years healthcare experience<\/p>",
+            "link": "https:\/\/www.linkedin.com\/in\/kelly-liddle-6a8aa2261\/"
+          }
+        }
+      },
+      "block_order": [
+        "image_VfiyGh",
+        "image_hxeWEP",
+        "image_ebeL3B",
+        "image_BJWEdC",
+        "image_JbacXJ",
+        "image_KYmHLF",
+        "image_QyNnTb",
+        "image_kDwAtD",
+        "image_FfedP4",
+        "image_wMacaM",
+        "image_KnyjFb",
+        "image_gpzGAA",
+        "image_ALprFA",
+        "image_yQDNrG",
+        "image_KUWW7m"
+      ],
+      "custom_css": [
+        ".lazy-image.animation.lazy-image--transparent {border-radius: 10px;}",
+        ".gallery-item__title {font-family: tenon, sans-serif; font-weight: 500;}",
+        "h6 {font-weight: 400;}",
+        "p {font-size: 18px !important;}",
+        ".gallery-item__caption.text-size--smaller.rte {margin-top: 0px;}"
+      ],
+      "settings": {
+        "title": "",
+        "seo_h_tag": "h2"
+      }
+    },
+    "heading_FEz7aT": {
+      "type": "heading",
+      "custom_css": [
+        ".section-header__title.h4 {font-size: 48px; font-family: tenon, sans serif;}",
+        " {margin-top: 2em; margin-bottom: 0px;}"
+      ],
+      "settings": {
+        "title": "Our Advisors",
+        "content": "",
+        "button_label": "",
+        "button_link": "",
+        "text_alignment": "left",
+        "text_size": "large",
+        "seo_h_tag": "h2"
+      }
+    },
+    "image_gallery_4B6K8N": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_aPapfD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Advisor_Profile_Bryan_Adams.png",
+            "title": "Bryan Adams",
+            "caption": "<p><\/p><p><\/p><p>CTO @ Duo Health, MIT Alumni (MEng + PhD)<\/p>",
+            "link": ""
+          }
+        },
+        "image_PVDJVb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Advisor_Profile_Brian_Shulman.png",
+            "title": "Brian Shulman",
+            "caption": "<p><\/p><p>AgeTech Atlanta + ElliQ, Techstars All-Star Mentor<\/p>",
+            "link": "https:\/\/www.linkedin.com\/in\/shuldaddy\/"
+          }
+        },
+        "image_KQha9J": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Advisor_Profile_Ambika_Bumb.png",
+            "title": "Dr. Ambika Bumb",
+            "caption": "<p><\/p><p>Formerly White House Deputy Exec. Director, 40 under 40, Marshall & NIH-Oxford Scholar<\/p>",
+            "link": "https:\/\/www.linkedin.com\/in\/ambikabumb\/"
+          }
+        },
+        "image_fFrfdT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Advisor_Profile_Jonah_Harley.png",
+            "title": "Dr. Jonah Harley",
+            "caption": "<p><\/p><p>Founder & CEO @ Hydrogen Sports, 50 patents, Inventor of Apple Pencil<\/p>",
+            "link": "https:\/\/www.linkedin.com\/in\/jonah-harley-7b52411\/"
+          }
+        },
+        "image_GBWdmT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Advisor_Profile_Elana_Berkowitz.png",
+            "title": "Elana Berkowitz",
+            "caption": "<p><\/p><p>Founding Partner @ Springbank Collective, Obama Administration, McKinsey, CARE<\/p>",
+            "link": "https:\/\/www.linkedin.com\/in\/elana-berkowitz-64b4bb49\/"
+          }
+        },
+        "image_nG6BzH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Advisor_Profile_Petr_Kucheryavyy.png",
+            "title": "Petr Kucheryavyy",
+            "caption": "<p><\/p><p>Speaker, Health and Wellness Coach<br\/>Disability Inclusion expert<br\/>Accessibility Professional<\/p>",
+            "link": "https:\/\/www.linkedin.com\/in\/petr-kucheryavyy-17662317\/"
+          }
+        }
+      },
+      "block_order": [
+        "image_aPapfD",
+        "image_PVDJVb",
+        "image_KQha9J",
+        "image_fFrfdT",
+        "image_GBWdmT",
+        "image_nG6BzH"
+      ],
+      "custom_css": [
+        ".lazy-image.animation.lazy-image--transparent {border-radius: 10px;}",
+        ".gallery-item__title {font-family: tenon, sans-serif; font-weight: 500;}",
+        "h6 {font-weight: 400;}",
+        "p {font-size: 18px !important;}",
+        ".gallery-item__caption.text-size--smaller.rte {margin-top: 0px;}"
+      ],
+      "settings": {
+        "title": "",
+        "seo_h_tag": "h2"
+      }
+    },
+    "image_with_text_FKHBbH": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_adacRc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Who We Partner With",
+            "heading_size": "h2"
+          }
+        },
+        "text_D4PrtV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lotus benefits everybody, but is optimized for folks experiencing limited mobility, such as older adults, veterans, and persons with disabilities. People are at the center of our innovation, and we are proud to work with partners who share our values and vision. Some of our partners include the U.S. Department of Veterans Affairs, State of New York - Office of the Aging, National Council on Independent Living (NCIL), and Age Tech Collaborative from AARP.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_adacRc",
+        "text_D4PrtV"
+      ],
+      "custom_css": [
+        ".img.lazy.lazyloaded {border-radius: 20px 20px 0px 20px;}",
+        ".image-with-text__heading.h2 {max-width: 300px; margin-bottom: 40px;}",
+        " {padding-bottom: 70px;}",
+        ".image-with-text__description.rte {max-width: 500px;}",
+        "@media only screen and (max-width: 600px) {.image-with-text__heading.h2 {max-width: 300px; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Partners_01.png",
+        "layout": "right-alignment"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "heading_wEwrkP",
+    "rich_text_zFXL6k",
+    "image_with_text_W9KLyX",
+    "heading_xYT6Pb",
+    "image_gallery_nqmbDL",
+    "heading_FEz7aT",
+    "image_gallery_4B6K8N",
+    "image_with_text_FKHBbH"
+  ]
+}

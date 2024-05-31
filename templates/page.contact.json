@@ -1,0 +1,71 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-contact-page",
+      "blocks": {
+        "1628539090bcf511f6-0": {
+          "type": "email",
+          "settings": {
+          }
+        },
+        "1628539090bcf511f6-1": {
+          "type": "field",
+          "settings": {
+            "label": "Message",
+            "type": "textarea",
+            "required": true
+          }
+        },
+        "1628539090bcf511f6-2": {
+          "type": "button",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1628539090bcf511f6-0",
+        "1628539090bcf511f6-1",
+        "1628539090bcf511f6-2"
+      ],
+      "settings": {
+        "title": "Hey there! We're here to answer any questions you have - about the Lotus Ring and beyond. Fill out the form and you'll receive an email from our team within two business days or less."
+      }
+    },
+    "rich_text_rqcH9K": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7Ybxcp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Enterprise Solutions",
+            "heading_size": "h3"
+          }
+        },
+        "text_Yx3BeE": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Considering a large order? Let's talk! Connect with our Head of Growth, Juan Rosales, to explore discounts and perks for partner organizations.<\/h4>"
+          }
+        },
+        "text_cy9B8L": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Email: juan@getlotus.com<br\/>Phone: (408) 357-3085<\/h4>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7Ybxcp",
+        "text_Yx3BeE",
+        "text_cy9B8L"
+      ],
+      "settings": {
+        "text_alignment": "left"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_rqcH9K"
+  ]
+}

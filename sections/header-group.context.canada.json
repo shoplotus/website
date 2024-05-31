@@ -1,0 +1,15 @@
+{
+  "parent": "header-group.json",
+  "context": {
+    "market": "canada"
+  },
+  "sections": {
+    "announcement": {
+      "settings": {
+        "show_country_selector": false
+      },
+      "blocks": {
+      }
+    }
+  }
+}

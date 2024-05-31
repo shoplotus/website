@@ -1,0 +1,58 @@
+{
+  "type": "header",
+  "name": "t:sections.refactor_words.labels.header_group",
+  "sections": {
+    "announcement": {
+      "type": "announcement-bar",
+      "blocks": {
+        "content": {
+          "type": "content",
+          "settings": {
+            "text": "✦ Lotus wins big at SXSW 2024! ✦",
+            "link": "https:\/\/www.sxsw.com\/news\/2024\/announcing-the-winners-of-2024-sxsw-pitch-competition\/https:\/\/www.sxsw.com\/news\/2024\/announcing-the-winners-of-2024-sxsw-pitch-competition\/",
+            "target": true
+          }
+        }
+      },
+      "block_order": [
+        "content"
+      ],
+      "custom_css": [
+        ".announcement-bar {font-family: tenon, sans serif; font-weight: 600;}"
+      ],
+      "settings": {
+        "visibility": "all",
+        "show_locale_selector": true,
+        "show_country_selector": false,
+        "show_social_icons": true,
+        "bar_bgcolor": "#ccbfa1",
+        "bar_txtcolor": "#112e40",
+        "border_color": "rgba(0,0,0,0)"
+      }
+    },
+    "header": {
+      "type": "header",
+      "custom_css": [
+        ".button--border {margin-left: 40px; height: 50px;}",
+        "@media (max-width: 800px) {.button--border {display: none; }}"
+      ],
+      "settings": {
+        "logo_src": "shopify:\/\/shop_images\/Black.svg",
+        "logo_height": 32,
+        "show_search": true,
+        "show_icon_labels": false,
+        "menu_sticky": "sticky--scroll",
+        "sticky_background": false,
+        "menu_primary": "main-menu",
+        "menu_secondary": "",
+        "show_social_icons": false,
+        "show_locale_selector": false,
+        "show_country_selector": false
+      }
+    }
+  },
+  "order": [
+    "announcement",
+    "header"
+  ]
+}

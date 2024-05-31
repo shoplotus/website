@@ -1,0 +1,90 @@
+{
+  "type": "footer",
+  "name": "t:sections.refactor_words.labels.footer_group",
+  "sections": {
+    "newsletter_ynmRpK": {
+      "type": "newsletter",
+      "blocks": {
+        "paragraph_Caggwc": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "<h2>Want updates as we prepare to launch? Sign up here.<\/h2>"
+          }
+        },
+        "email_form_wh7Ngd": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "paragraph_Caggwc",
+        "email_form_wh7Ngd"
+      ],
+      "custom_css": [
+        "{padding-top: 100px; padding-bottom: 50px; background: #ccbfa1; margin-bottom: 0px;}",
+        ".newsletter-input {background: #ccbfa1; font-family: tenon, sans-serif; border-color: #112e40 !important;}"
+      ],
+      "settings": {
+        "title": "",
+        "seo_h_tag": "h2"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "657d0481-8a40-4d4d-a64c-1a3264f6de2a": {
+          "type": "menus",
+          "settings": {
+            "title_1": "LINKS",
+            "menu_1": "footer",
+            "title_2": "Menu",
+            "menu_2": ""
+          }
+        },
+        "social_FgXA8Y": {
+          "type": "social",
+          "settings": {
+            "title": "Follow us",
+            "icon_1_name": "LinkedIn",
+            "icon_1": "shopify:\/\/shop_images\/linkedin.svg",
+            "icon_1_link": "https:\/\/www.linkedin.com\/company\/getlotus",
+            "icon_2_name": "Instagram",
+            "icon_2": "shopify:\/\/shop_images\/instagram-icon.svg",
+            "icon_2_link": "https:\/\/www.instagram.com\/getlotusring",
+            "icon_3_name": "Facebook",
+            "icon_3": "shopify:\/\/shop_images\/facebook-icon.svg",
+            "icon_3_link": "http:\/\/www.facebook.com\/getlotusring",
+            "icon_4_name": "Youtube Channel",
+            "icon_4": "shopify:\/\/shop_images\/youtube-icon.svg",
+            "icon_4_link": "https:\/\/www.youtube.com\/@GetLotus",
+            "icon_5_name": "X",
+            "icon_5": "shopify:\/\/shop_images\/x.svg",
+            "icon_5_link": "https:\/\/twitter.com\/getlotusring"
+          }
+        }
+      },
+      "block_order": [
+        "657d0481-8a40-4d4d-a64c-1a3264f6de2a",
+        "social_FgXA8Y"
+      ],
+      "custom_css": [
+        ".main-footer {padding-bottom: 25px;}",
+        ".footer-item--info {margin-bottom: 25px;}",
+        "span {font-size: 16px;}"
+      ],
+      "settings": {
+        "show_payment_icons": true,
+        "show_locale_selector": true,
+        "show_country_selector": true,
+        "enable_follow_on_shop": false,
+        "bgcolor": "#ccbfa1",
+        "txtcolor": "#112e40"
+      }
+    }
+  },
+  "order": [
+    "newsletter_ynmRpK",
+    "footer"
+  ]
+}

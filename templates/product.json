@@ -1,0 +1,442 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "show_vendor": false,
+            "show_reviews": false,
+            "show_tax_info": false,
+            "show_sku": false,
+            "show_barcode": false,
+            "stick_product_header_on_mobile": true
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "variants_style": "radio",
+            "show_color_swatches": true,
+            "show_quantities": "no"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_quantity_selector": true,
+            "show_preorder_label": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "pickup_avaiability": {
+          "type": "pickup_avaiability",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "collapsible_tab_dxYMQm": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Product Details",
+            "content": "<p>A pre-order is a refundable deposit that holds your place in line to purchase the first-ever Lotus Ring. You'll be notified as soon as production starts. Each kit contains:<\/p><ul><li>1 Lotus Ring <\/li><li>2 Lotus Switch Covers<\/li><li>1 USB-C charge cable<\/li><li>1 Lotus Ring charging platform<\/li><\/ul><p>*We are working hard to implement all listed features in the first generation of the Lotus Ring. However, product development is underway, and not all features may make it into the final product as originally planned.<\/p>",
+            "page": "",
+            "hide_block_if": true
+          }
+        },
+        "collapsible_tab_n4CVif": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Shipping & Returns",
+            "content": "<p>Don’t worry, after receiving your own Lotus Ring you have a 14-day trial period to decide if it is right for you.<\/p><ul><li>The ring doesn't fit your lifestyle? Receive a full refund, no problem.<\/li><li>The ring doesn't fit your finger? Exchange for another size!<\/li><li>Shipping and handling charges are non-refundable. <\/li><\/ul><p>This product is set to be shipped in the Fall of 2024 via a national carrier and ground shipping. Please note that we currently only ship within US & Canada.<\/p><p>*Lotus Ring preorders are tentative and release dates may change as a result of external circumstances. Therefore release dates cannot be guaranteed.<\/p>",
+            "page": "",
+            "hide_block_if": false
+          }
+        },
+        "toggles_with_icons_AnC3jC": {
+          "type": "toggles-with-icons",
+          "settings": {
+            "title": "Key Benefits",
+            "feature1_title": "Autonomy",
+            "feature1_icon": "shopify:\/\/shop_images\/bulb.svg",
+            "feature1_text": "<p>Turn on lights, activate fans, and manage the TV with this sleek ring's infrared magic. Lightweight, waterproof, and always on hand, it's your key to independence in any space.<\/p>",
+            "feature2_title": "Simplicity",
+            "feature2_icon": "shopify:\/\/shop_images\/pointing_finger.svg",
+            "feature2_text": "<p>The Lotus ecosystem helps simplify home control. With magnetically attachable switch covers, you can save over 11 hours of work and 70% off typical smart home cost. And a 1-hour recharge lasts 90 days.<\/p>",
+            "feature3_title": "Portability",
+            "feature3_icon": "shopify:\/\/shop_images\/globe.svg",
+            "feature3_text": "<p>Snap on the switch covers anywhere—bedroom, bathroom, kitchen—wherever there's a wall switch. From visits with loved ones to hotel stays, they go with you, making every space feel like home.<\/p>",
+            "feature4_title": "",
+            "feature4_text": "",
+            "feature5_title": "",
+            "feature5_text": "",
+            "feature6_title": "",
+            "feature6_text": "",
+            "seo_h_tag": "h4"
+          }
+        }
+      },
+      "block_order": [
+        "header",
+        "variant_picker",
+        "buy_buttons",
+        "pickup_avaiability",
+        "description",
+        "collapsible_tab_dxYMQm",
+        "collapsible_tab_n4CVif",
+        "toggles_with_icons_AnC3jC"
+      ],
+      "settings": {
+        "media_aspect": "1",
+        "enable_zoom": false,
+        "enable_video_looping": false
+      }
+    },
+    "images_with_text_overlay_kx6JFT": {
+      "type": "images-with-text-overlay",
+      "blocks": {
+        "image_BqAya3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/product-hero.png",
+            "heading": "The Lotus Ecosystem",
+            "description": "<h5>The power of home control, wrapped around your finger.<\/h5>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_BqAya3"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "{padding: 0px;}",
+        "h2 {color: #f8f3ee;}",
+        "div {color: #f8f3ee; max-height: 600px;}"
+      ],
+      "settings": {
+        "title": "",
+        "layout": "regular",
+        "text_alignment": "horizontal-center vertical-middle",
+        "color_text": "",
+        "color_bg": "",
+        "seo_h_tag": "h2"
+      }
+    },
+    "image_gallery_tUaUwp": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_kjtyeq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/01-lights-01.gif",
+            "title": "",
+            "caption": "<h3>Lights<\/h3>",
+            "link": ""
+          }
+        },
+        "image_qJi8az": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/02-fans-01.gif",
+            "title": "",
+            "caption": "<h3>Fans<\/h3>",
+            "link": ""
+          }
+        },
+        "image_awYGkB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/03-appliances-02.gif",
+            "title": "",
+            "caption": "<h3>Appliances<\/h3>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_kjtyeq",
+        "image_qJi8az",
+        "image_awYGkB"
+      ],
+      "custom_css": [
+        ".image-gallery {grid-template-columns: repeat(3, 1fr);}",
+        "@media (max-width: 599px) {.image-gallery {grid-template-columns: repeat(1, 1fr); }}"
+      ],
+      "settings": {
+        "title": "Things You Can Control",
+        "seo_h_tag": "h2"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "products_number": 3
+      }
+    },
+    "video_popup_KnTbXJ": {
+      "type": "video-popup",
+      "custom_css": [
+        "{margin-bottom: 25px;}",
+        ".section-header__title.h4 {font-weight: 400 !important;}"
+      ],
+      "settings": {
+        "title": "How to Use It",
+        "video": "https:\/\/youtu.be\/28nhNJSLkxo",
+        "image": "shopify:\/\/shop_images\/Lotus-How_to_Video-Thumbnail-01.png",
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_Bgmhye": {
+      "type": "rich-text",
+      "blocks": {
+        "button_V9Fd6C": {
+          "type": "button",
+          "settings": {
+            "button_label": "Audio Described Video",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_V9Fd6C"
+      ],
+      "custom_css": [
+        ".button--underline {font-family: tenon, sans serif;}",
+        "h3 {font-family: tenon, sans serif;}"
+      ],
+      "settings": {
+        "text_alignment": "left"
+      }
+    },
+    "testimonials_3YnTdw": {
+      "type": "testimonials",
+      "blocks": {
+        "text_DFxxRA": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "quote_content": "<h3>Add customer reviews and testimonials to showcase your store's happy customers.<\/h3>",
+            "quote_author": "Author",
+            "quote_caption": "Customer"
+          }
+        },
+        "text_E7BVeT": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "quote_content": "<h3>Add customer reviews and testimonials to showcase your store's happy customers.<\/h3>",
+            "quote_author": "Author",
+            "quote_caption": "Customer"
+          }
+        },
+        "text_xKQyWT": {
+          "type": "text",
+          "settings": {
+            "quote_content": "<h3>It’s refreshing to see a company that prioritizes those of us so often underserved.<\/h3>",
+            "quote_author": "Louryn Strampe",
+            "quote_caption": "Product Writer and Reviewer",
+            "quote_avatar": "shopify:\/\/shop_images\/wired-logo.png"
+          }
+        },
+        "text_FLeHwf": {
+          "type": "text",
+          "settings": {
+            "quote_content": "<h3>Like having a very specific superpower I wouldn’t mind using in my daily life.<\/h3>",
+            "quote_author": "Chris Velazco",
+            "quote_caption": "Personal Technology Reporter",
+            "quote_avatar": "shopify:\/\/shop_images\/washington-post-logo.png"
+          }
+        },
+        "text_DWMYy6": {
+          "type": "text",
+          "settings": {
+            "quote_content": "<h3>This finger-borne controller doesn’t monitor or measure; it simply controls.<\/h3>",
+            "quote_author": "Jonathan Bell",
+            "quote_caption": "Transport and Technology Editor",
+            "quote_avatar": "shopify:\/\/shop_images\/wallpaper-magazine-logo.png"
+          }
+        },
+        "text_hfzQnp": {
+          "type": "text",
+          "settings": {
+            "quote_content": "<h3>Embodies a marriage of sophisticated technology and thoughtful design.<\/h3>",
+            "quote_author": "Alan Merritt",
+            "quote_caption": "Managing Editor",
+            "quote_avatar": "shopify:\/\/shop_images\/justnownews-logo.png"
+          }
+        }
+      },
+      "block_order": [
+        "text_DFxxRA",
+        "text_E7BVeT",
+        "text_xKQyWT",
+        "text_FLeHwf",
+        "text_DWMYy6",
+        "text_hfzQnp"
+      ],
+      "settings": {
+        "title": "Media Mentions",
+        "text_alignment": "center",
+        "seo_h_tag": "h2"
+      }
+    },
+    "image_with_text_UFPbKV": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_VPe7kW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Early Investors",
+            "heading_size": "h2"
+          }
+        },
+        "text_ERRWHA": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><strong>Sean Henry,<\/strong> Stord, Kleiner Perkins scout<br\/><strong>Elizabeth Yin,<\/strong> Hustle Fund<br\/><strong>Tracy Chadwell,<\/strong> 1843 Capital<br\/><strong>Tristan Walker, <\/strong>Walker & Co., Heirloom Fund<br\/><strong>Paige Finn Doherty,<\/strong> Behind Genius Ventures<br\/><strong>Mendel Chuang,<\/strong> Acquired Wisdom Fund<br\/><strong>Regina Kline,<\/strong> Enable Ventures<br\/><strong>Josh & Lisa Muccio,<\/strong> The Pitch Fund<br\/><strong>Techstars, <\/strong>Future of Longevity 2023<br\/><strong>Pankaj Kedia, <\/strong>Qualcomm, 2468 Ventures<br\/><strong>Ranga Jayaraman, <\/strong>IBM + NVIDIA<\/h6>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VPe7kW",
+        "text_ERRWHA"
+      ],
+      "custom_css": [
+        "h6 {line-height: 150%; font-weight: 400;}",
+        ".image-with-text {align-items: flex-start;}",
+        "@media only screen and (max-width: 600px) {.image-with-text__heading.h2 {font-size: 40px; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Early_Investor_Logos_bca0f9ab-3944-4798-935f-189930086b7e.png",
+        "layout": "right-alignment"
+      }
+    },
+    "toggles_with_icons_E6tka7": {
+      "type": "toggles-with-icons",
+      "blocks": {
+        "text_p7njfF": {
+          "type": "text",
+          "settings": {
+            "title": "What does it mean to pre-order a Lotus Kit?",
+            "body": "<p>Pre-ordering with a $4.99 deposit puts you among the first to receive the Lotus Kit. The pre-order deposit is not the full amount (the remainder will be charged when your order ships) and It does not guarantee a specific delivery date. It <em>does<\/em>, however, get you a 15% discount on the Lotus Kit. The deposit is non-refundable, but if you change your mind closer to shipping in Fall 2024, you can cancel your pre-order. <\/p>",
+            "select_icon": "none"
+          }
+        },
+        "text_TLgNyH": {
+          "type": "text",
+          "settings": {
+            "title": "Does the ring need to be connected?",
+            "body": "<p>The answer is no. The ring works via infrared, just like your TV remote. No rewiring or internet connection needed. Privacy is one of our biggest priorities.<\/p>",
+            "select_icon": "none"
+          }
+        },
+        "text_dggnxY": {
+          "type": "text",
+          "settings": {
+            "title": "Can the Lotus Ring get wet?",
+            "body": "<p>Yes! The Lotus Ring is waterproof. You don’t need to worry about taking it off to shower or wash your hands. In fact, we anticipate that one of its most popular uses will be to control water faucets when hands are full (or dirty). <\/p>",
+            "select_icon": "none"
+          }
+        },
+        "text_UxxWAa": {
+          "type": "text",
+          "settings": {
+            "title": "Can I share my Lotus Ring with family and friends?",
+            "body": "<p>We recommend that everyone have their own Lotus Ring. However, all Lotus Rings work with all Lotus Switch Covers, so your family and friends can use theirs in your space, and vice versa.<\/p>",
+            "select_icon": "none"
+          }
+        },
+        "text_7nCbHV": {
+          "type": "text",
+          "settings": {
+            "title": "Where will the Lotus Ring be shipped to?",
+            "body": "<p>The Ring and Switch Covers will only be shipped within the US and Canada (for now). <\/p>",
+            "select_icon": "none"
+          }
+        },
+        "text_YYfmhH": {
+          "type": "text",
+          "settings": {
+            "title": "Where can I use the Lotus Ring?",
+            "body": "<p>Wherever home is for you. Even if you rent your home, relocate often, or simply love to travel. It is completely portable and requires zero installation. <\/p>",
+            "select_icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_p7njfF",
+        "text_TLgNyH",
+        "text_dggnxY",
+        "text_UxxWAa",
+        "text_7nCbHV",
+        "text_YYfmhH"
+      ],
+      "custom_css": [
+        "{padding-top: 100px; padding-bottom: 100px; margin-bottom: 0px;}",
+        ".section-header__title.h4 {font-size: 24px; font-weight: 400 !important; letter-spacing: 0px !important;}",
+        "p {font-size: 18px;}"
+      ],
+      "settings": {
+        "title": "FAQs",
+        "seo_h_tag": "h2"
+      }
+    },
+    "images_with_text_overlay_gfEQbH": {
+      "type": "images-with-text-overlay",
+      "blocks": {
+        "image_EmdYbY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/product-footer_3cd11266-3254-4317-ad22-b2a2a3c476e0.png",
+            "heading": "$50 off for early adopters",
+            "description": "",
+            "button_label": "Pre-Order Now",
+            "button_link": "shopify:\/\/products\/pre-order-lotus-ring-3-switch-covers"
+          }
+        }
+      },
+      "block_order": [
+        "image_EmdYbY"
+      ],
+      "custom_css": [
+        "{margin-bottom: 0px; padding: 0px;}",
+        ".image-with-text-overlay__heading {color: #f8f3ee;}",
+        "div {max-height: 600px;}",
+        "@media only screen and (max-width: 600px) {span {font-size: 40px; margin-bottom: 2em; }}"
+      ],
+      "settings": {
+        "title": "",
+        "layout": "regular",
+        "text_alignment": "horizontal-center vertical-middle",
+        "color_text": "",
+        "color_bg": "",
+        "seo_h_tag": "h3"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "images_with_text_overlay_kx6JFT",
+    "image_gallery_tUaUwp",
+    "product-recommendations",
+    "video_popup_KnTbXJ",
+    "rich_text_Bgmhye",
+    "testimonials_3YnTdw",
+    "image_with_text_UFPbKV",
+    "toggles_with_icons_E6tka7",
+    "images_with_text_overlay_gfEQbH"
+  ]
+}

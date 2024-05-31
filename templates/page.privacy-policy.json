@@ -1,0 +1,69 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "no_margins": false,
+        "reduced_margins": false
+      }
+    },
+    "rich_text_anHTei": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Q4feHi": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Privacy Policy",
+            "heading_size": "h3"
+          }
+        },
+        "text_aFDeN4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In this Privacy Policy (“Policy”) we describe how Lotus Laboratories Inc. (“Lotus”) collects, uses, and discloses information obtained about visitors to our website www.lotuslabs.org (the “Site”), subscribers to our digital communications (“Communications”), and users who pre-order the Lotus Kit.<\/p><p>By signing up to receive Communications or pre-order Lotus, you agree that your information will be handled as described in this Policy. Any dispute over privacy is subject to this Policy.<\/p>"
+          }
+        },
+        "text_bQheX4": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Information We Collect About You<\/h3><p>We collect information about you directly from you through your use of our Site, sign up for Communications, and order a Lotus Kit.<\/p><h3>Information We Collect Directly From You<\/h3><p>We collect certain information directly from you depending on what you provide. When you order a Lotus Kit, we will collect your payment information, such as your credit or debit card information and your shipping and billing address. If you complete one of our surveys, we will collect the information you provide in your survey responses. This information does not constitute your personal health information and is not intended to provide any medical diagnosis, analysis, or advice for treatment. We may also collect additional information from you if you contact us, including your name, email address, the contents of a message or attachments that you may send to us, and other information that you choose to provide. If you subscribe to our Communications, we will collect certain information from you, such as your email address.<\/p><h3>Information We Collect Automatically<\/h3><p>We automatically collect the following information about your use of our Site through cookies, web beacons, and other technologies: your domain name; your browser type and operating system; web pages you view; links you click; your IP address; the length of time you visit our Site and\/or use our Services; and the referring URL, or webpage that led you to our Site. To the extent permitted by law, we may combine this information with other information we collect about you, including your personal information. Please see the section “Cookies and Other Tracking Mechanisms” below for more information.​<\/p><p><\/p><p><\/p><p><\/p>"
+          }
+        },
+        "text_6DftLP": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>How We Use Your Information<\/h3><p>We use your information, including your personal information, for the following purposes:<\/p><ul><li>To send you Communications and to fulfill your Lotus Kit orders.<\/li><li>To communicate with you about Lotus, to respond to your inquiries, and for other customer service purposes.<\/li><li>To tailor the content and information that we may send or display to you.<\/li><li>To assist us in advertising on third party websites, mobile apps, and other online services, and to evaluate the success of our advertising campaigns through third party channels (including our online targeted advertising and offline promotional campaigns).<\/li><li>For research, including research for publication, and analytics purposes.<\/li><li>To administer surveys and questionnaires, such as for market research or member satisfaction purposes.<\/li><li>To create aggregated, anonymized, pseudonymized or de-identified data sets. We may use such data sets for investor pitches, research, product and services improvement and development, marketing, advertising, trend analysis and other purposes.<\/li><li>To comply with legal obligations, as part of our general business operations, and for other business administration purposes.<\/li><li>Where we believe necessary to investigate, prevent or take action regarding illegal activities, suspected fraud, situations involving potential threats to safety of any person or violations of this Policy.<\/li><\/ul><p> <\/p>"
+          }
+        },
+        "text_Xjjdqk": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>How We Share the Information We Collect<\/h3><p>We may share your information, including personal information, as follows:<\/p><h4>Service Providers<\/h4><p>We disclose the information we collect from you to service providers, contractors or agents who perform functions on our behalf.<\/p><h4>Affiliates<\/h4><p>We disclose the information we collect from you to our affiliates or subsidiaries.<\/p><h4>Analytics Partners<\/h4><p>We use analytics services such as Google Analytics to help us understand the use of our Services. You can learn about Google’s practices by going to https:\/\/www.google.com\/policies\/privacy\/partners\/, and opt-out of them by downloading the Google Analytics opt-out browser add-on, available at <a>https:\/\/tools.google.com\/dlpage\/gaoptout<\/a>.<\/p><p>We also disclose information in the following circumstances:<\/p><h4>Business Transfers<\/h4><p>If (i) we or our affiliates are or may be acquired by, merged with, or invested in by another company, or (ii) if any of our assets are or may be transferred to another company, whether as part of a bankruptcy or insolvency proceeding or otherwise, we may transfer the information we have collected about you to the other company. As part of the business transfer process, we may share certain of your personal information with lenders, auditors, and third party advisors, including attorneys and consultants.​<\/p><h4>In Response to Legal Process<\/h4><p>We disclose your information to comply with the law, a judicial proceeding, court order, or other legal process, such as in response to a court order or a subpoena.<\/p><p>​<\/p><h4>To Protect Us and Others<\/h4><p>We disclose your information when we believe it is appropriate to do so to investigate, prevent, or take action regarding illegal activities, suspected fraud, situations involving potential threats to the safety of any person, violations of this Policy, or as evidence in litigation in which we are involved.<\/p><h4>Aggregate and De-Identified Information <\/h4><p>We share aggregate, anonymized, pseudonymized, or de-identified information about users with third parties for marketing, funding, advertising, research or similar purposes.<\/p><h4>Consent<\/h4><p>We may also disclose your information with your permission.<\/p><h4>Our Use of Cookies and Other Tracking Mechanisms<\/h4><p>We and our third party service providers use cookies and other tracking mechanisms to track information about your use of our Services. We may combine this information with other personal information we collect from you (and our third party service providers may do so on our behalf).<\/p>"
+          }
+        },
+        "text_6ifQFz": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Cookies<\/h4><p>Cookies are small text files containing a string of alphanumeric characters. We may use both session cookies and persistent cookies. A session cookie disappears after you close your browser. A persistent cookie remains after you close your browser and may be used by your browser on subsequent visits to our Services. Please review your web browser’s “Help” file to learn how to modify your cookie settings.<\/p><h4>Third-Party Links<\/h4><p>Our Site may contain links to third-party websites. Any access to and use of such linked websites is not governed by this Policy, but instead is governed by the privacy policies of those third-party websites. We are not responsible for the information practices of such third-party websites.<\/p><p> <\/p><h4>Security of Personal Information<\/h4><p>We have implemented reasonable precautions to protect the information we collect from loss, misuse, and unauthorized access, disclosure, alteration, and destruction. Please be aware that despite our efforts, no data security measures can guarantee security.<\/p><h4><\/h4><h4>Opt Out Choices<\/h4><p>We may send periodic promotional emails to you. You may opt-out of promotional emails by following the opt-out instructions contained in the email. Please note that it may take up to 10 business days for us to process opt-out requests.<\/p><h4>Contact Us<\/h4><p>If you have questions about the privacy aspects of our Services or would like to make a complaint, please contact us at hello@getlotus.com.​<\/p><h4>Changes to this Policy<\/h4><p>We may change this Policy from time to time, so please check back regularly. We will aim to provide you with notice in advance of such change by highlighting on our Site or sending you an email, if you are subscribed.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Q4feHi",
+        "text_aFDeN4",
+        "text_bQheX4",
+        "text_6DftLP",
+        "text_Xjjdqk",
+        "text_6ifQFz"
+      ],
+      "settings": {
+        "text_alignment": "left"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_anHTei"
+  ]
+}

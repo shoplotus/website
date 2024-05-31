@@ -1,0 +1,341 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "no_margins": false,
+        "reduced_margins": false
+      }
+    },
+    "rich_text_DBTgNP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_T4wwH4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h4"
+          }
+        },
+        "text_N3Rh3E": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "button_VaYbDU": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_T4wwH4",
+        "text_N3Rh3E",
+        "button_VaYbDU"
+      ],
+      "settings": {
+        "text_alignment": "left"
+      }
+    },
+    "image_with_text_WgJhGt": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_yn7aAG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Write your story",
+            "heading_size": "h1"
+          }
+        },
+        "text_hq6rp3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Write some information about your brand, products or story.<\/p>"
+          }
+        },
+        "button_3LqmnN": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_yn7aAG",
+        "text_hq6rp3",
+        "button_3LqmnN"
+      ],
+      "settings": {
+        "layout": "right-alignment"
+      }
+    },
+    "image_gallery_Fd9qXg": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_xMQMXc": {
+          "type": "image",
+          "settings": {
+            "title": "Image",
+            "caption": "<p>Write some details about this image.<\/p>",
+            "link": ""
+          }
+        },
+        "image_QkQYVH": {
+          "type": "image",
+          "settings": {
+            "title": "Image",
+            "caption": "<p>Write some details about this image.<\/p>",
+            "link": ""
+          }
+        },
+        "image_dmH3jG": {
+          "type": "image",
+          "settings": {
+            "title": "Image",
+            "caption": "<p>Write some details about this image.<\/p>",
+            "link": ""
+          }
+        },
+        "image_zartC4": {
+          "type": "image",
+          "settings": {
+            "title": "Image",
+            "caption": "<p>Write some details about this image.<\/p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_xMQMXc",
+        "image_QkQYVH",
+        "image_dmH3jG",
+        "image_zartC4"
+      ],
+      "settings": {
+        "title": "Image gallery",
+        "seo_h_tag": "h2"
+      }
+    },
+    "heading_WXNcD6": {
+      "type": "heading",
+      "settings": {
+        "title": "Heading",
+        "content": "<p>Write some information about your brand, products or story.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "text_alignment": "left",
+        "text_size": "large",
+        "seo_h_tag": "span"
+      }
+    },
+    "images_with_text_overlay_UxH7jU": {
+      "type": "images-with-text-overlay",
+      "blocks": {
+        "image_A6Gp4T": {
+          "type": "image",
+          "settings": {
+            "heading": "Write your Story",
+            "description": "<p>Write some information about your brand, products or story.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "image_dhNiA3": {
+          "type": "image",
+          "settings": {
+            "heading": "Write your Story",
+            "description": "<p>Write some information about your brand, products or story.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "image_VUd9Ak": {
+          "type": "image",
+          "settings": {
+            "heading": "Write your Story",
+            "description": "<p>Write some information about your brand, products or story.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_A6Gp4T",
+        "image_dhNiA3",
+        "image_VUd9Ak"
+      ],
+      "settings": {
+        "title": "Images with text overlay",
+        "layout": "asymmetrical",
+        "text_alignment": "horizontal-left vertical-bottom",
+        "color_text": "",
+        "color_bg": "",
+        "seo_h_tag": "h2"
+      }
+    },
+    "text_columns_with_icons_tqy3az": {
+      "type": "text-columns-with-icons",
+      "blocks": {
+        "text_icon_YznFXQ": {
+          "type": "text-icon",
+          "settings": {
+            "title": "Shipping",
+            "body": "<p>Useful information about your shipping details<\/p>",
+            "select_icon": "open-box"
+          }
+        },
+        "text_icon_bW6AtM": {
+          "type": "text-icon",
+          "settings": {
+            "title": "Returns",
+            "body": "<p>Show how much time customers have for testing your products<\/p>",
+            "select_icon": "time-limit"
+          }
+        },
+        "text_icon_EBCt6V": {
+          "type": "text-icon",
+          "settings": {
+            "title": "Pickup",
+            "body": "<p>Let your customers know about local pickup<\/p>",
+            "select_icon": "store"
+          }
+        }
+      },
+      "block_order": [
+        "text_icon_YznFXQ",
+        "text_icon_bW6AtM",
+        "text_icon_EBCt6V"
+      ],
+      "settings": {
+      }
+    },
+    "toggles_with_icons_xqnhaT": {
+      "type": "toggles-with-icons",
+      "blocks": {
+        "text_yJ4UxE": {
+          "type": "text",
+          "settings": {
+            "title": "Shipping details",
+            "body": "<p>Write some useful information about your shipping details<\/p><p>Link to your <a href='#'>shipping policy<\/a>.<\/p>",
+            "select_icon": "open-box"
+          }
+        },
+        "text_bDmjTR": {
+          "type": "text",
+          "settings": {
+            "title": "Delivery details",
+            "body": "<p>Let your customers know if you offer free delivery for certain types of orders<\/p><p>Link to your <a href='#'>offers page<\/a>.<\/p>",
+            "select_icon": "delivery"
+          }
+        },
+        "text_FXRTz9": {
+          "type": "text",
+          "settings": {
+            "title": "Returns details",
+            "body": "<p>Show customers how much time they have for testing your products<\/p><p>Link to your <a href='#'>returns policy<\/a>.<\/p>",
+            "select_icon": "time-limit"
+          }
+        }
+      },
+      "block_order": [
+        "text_yJ4UxE",
+        "text_bDmjTR",
+        "text_FXRTz9"
+      ],
+      "settings": {
+        "title": "Toggles with icons",
+        "seo_h_tag": "h2"
+      }
+    },
+    "testimonials_ztRwCC": {
+      "type": "testimonials",
+      "blocks": {
+        "text_HJxhnd": {
+          "type": "text",
+          "settings": {
+            "quote_content": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+            "quote_author": "Author",
+            "quote_caption": "Customer"
+          }
+        },
+        "text_QxwFdX": {
+          "type": "text",
+          "settings": {
+            "quote_content": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+            "quote_author": "Author",
+            "quote_caption": "Customer"
+          }
+        }
+      },
+      "block_order": [
+        "text_HJxhnd",
+        "text_QxwFdX"
+      ],
+      "settings": {
+        "title": "Testimonials",
+        "text_alignment": "left",
+        "seo_h_tag": "h2"
+      }
+    },
+    "images_with_text_slider_qQqBbd": {
+      "type": "images-with-text-slider",
+      "blocks": {
+        "image_KQ9a8c": {
+          "type": "image",
+          "settings": {
+            "heading": "Image title",
+            "description": "<p>Write about specific product features or store details.<\/p>"
+          }
+        },
+        "image_dCt8KK": {
+          "type": "image",
+          "settings": {
+            "heading": "Image title",
+            "description": "<p>Write about specific product features or store details.<\/p>"
+          }
+        },
+        "image_CFpEfk": {
+          "type": "image",
+          "settings": {
+            "heading": "Image title",
+            "description": "<p>Write about specific product features or store details.<\/p>"
+          }
+        },
+        "image_7XaTGJ": {
+          "type": "image",
+          "settings": {
+            "heading": "Image title",
+            "description": "<p>Write about specific product features or store details.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_KQ9a8c",
+        "image_dCt8KK",
+        "image_CFpEfk",
+        "image_7XaTGJ"
+      ],
+      "settings": {
+        "title": "Images with text slider",
+        "gallery_aspect": "1",
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_DBTgNP",
+    "image_with_text_WgJhGt",
+    "image_gallery_Fd9qXg",
+    "heading_WXNcD6",
+    "images_with_text_overlay_UxH7jU",
+    "text_columns_with_icons_tqy3az",
+    "toggles_with_icons_xqnhaT",
+    "testimonials_ztRwCC",
+    "images_with_text_slider_qQqBbd"
+  ]
+}

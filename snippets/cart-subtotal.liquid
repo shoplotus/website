@@ -1,0 +1,98 @@
+<div id="AjaxCartSubtotal">
+  
+  <div class="cart__footer {% if cart.item_count == 0 %} cart--empty {% endif %}">
+  <div class="waitlist-form">
+    <h3>Join the waitlist now and be the first to know about our upcoming launch.</h3>
+
+    <form id="WaitlistForm">
+      <input tabindex= "-1" type="email" name="waitlist_email" placeholder="Enter your email" required>
+      <button type="submit" class="button button--solid">Join Waitlist</button>
+    </form>
+  </div>
+    {%- if settings.cart_notes_enable -%}
+      <textarea
+        name="note"
+        id="cartSpecialInstructions"
+        placeholder="{{ 'cart.note' | t }}"
+        aria-label="{{ 'cart.note' | t }}"
+        form="cart"
+      >{{ cart.note }}</textarea>
+    {%- endif -%}
+
+    <div class="cart-out">
+      <div id="CartDetails">
+        {%- if cart.cart_level_discount_applications != blank -%}
+          <div>
+            <p id="CartSubTotal">
+              {{ 'cart.subtotal' | t }}
+              <span>{{ cart.items_subtotal_price | money }}</span>
+            </p>
+            <p id="CartDiscounts">
+              {{ 'cart.discounts' | t }}
+              {%- for discount_application in cart.cart_level_discount_applications -%}
+                <span style="display: inline-block">
+                  {{- discount_application.title }}
+                  <span style="display: inline-block"
+                    >(-{{ discount_application.total_allocated_amount | money | strip }})</span
+                  ></span
+                >
+              {%- endfor -%}
+            </p>
+          </div>
+        {%- endif -%}
+      </div>
+
+      <p id="CartTotal">
+        {{ 'cart.total' | t }}
+        <span>{{ cart.total_price | money }}</span>
+      </p>
+      <span class="info">
+        {%- liquid
+          if cart.taxes_included and shop.shipping_policy.body != blank
+            echo 'cart.policies.taxes_included_and_shipping_policy_html' | t: link: shop.shipping_policy.url
+          elsif cart.taxes_included
+            echo 'cart.policies.taxes_included_but_shipping_at_checkout' | t
+          elsif shop.shipping_policy.body != blank
+            echo 'cart.policies.taxes_and_shipping_policy_at_checkout_html' | t: link: shop.shipping_policy.url
+          else
+            echo 'cart.policies.taxes_and_shipping_at_checkout' | t
+          endif
+        -%}
+      </span>
+
+      <div class="cart-actions buttons-holder {% if additional_checkout_buttons and settings.cart_additional_buttons and type == 'page' %} cart-actions--additional-checkout-buttons {% endif %}">
+        <a id="ViewCart" href="{{ routes.cart_url }}" class="button button--border button--align">
+          {{- 'cart.view_cart' | t -}}
+        </a>
+
+        <noscript>
+          <button name="update" class="button button--border button--wide" form="cart">{{ 'cart.update' | t }}</button>
+        </noscript>
+
+        <button
+          id="CheckOut"
+          class="button button--solid {% if additional_checkout_buttons and settings.cart_additional_buttons and type == 'page' %} button--wide {% endif %}"
+          type="submit"
+          name="checkout"
+          form="cart"
+        >
+          {{ 'cart.checkout' | t }}
+        </button>
+
+        {%- unless template contains 'order' -%}
+          {%- if additional_checkout_buttons and settings.cart_additional_buttons -%}
+            <div class="additional-checkout-buttons additional-checkout-buttons--vertical">
+              {{ content_for_additional_checkout_buttons }}
+            </div>
+          {%- endif -%}
+        {%- endunless -%}
+      </div>
+    </div>
+
+    <div class="cart-continue ccart--space" role="button">
+      <a href="{{ routes.all_products_collection_url }}" class="button button--wide button--align">
+        <span class="ccart--update">{{ 'cart.continue_browsing' | t }}</span>
+      </a>
+    </div>
+  </div>
+</div>

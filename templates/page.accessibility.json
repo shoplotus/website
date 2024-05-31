@@ -1,0 +1,50 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "no_margins": false,
+        "reduced_margins": false
+      }
+    },
+    "rich_text_FkwRJt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kNRRKD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Accessibility at Lotus",
+            "heading_size": "h3"
+          }
+        },
+        "text_nTyaAX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We strive for disability inclusion and belonging in everything we do. <\/p><p>Our website aims to meet, and exceed where possible, Web Content Accessibility Guidelines (WCAG) 2.0 compliance. More importantly, we are engaged in ongoing user testing to ensure a wide range of experienes and preferences are considered and optimized for.<\/p><p>If you have feedback on your experience and how we can continue to do better, please email Natalie at <a href=\"mailto:natalie@lotuslabs.org?subject=Lotus%20website%20accessibility%20feedback\" target=\"_self\">natalie@getlotus.com<\/a>.<\/p>"
+          }
+        },
+        "button_cEj4Tt": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_kNRRKD",
+        "text_nTyaAX",
+        "button_cEj4Tt"
+      ],
+      "settings": {
+        "text_alignment": "left"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_FkwRJt"
+  ]
+}

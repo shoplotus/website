@@ -1,0 +1,200 @@
+{
+  "current": {
+    "color_accent": "#112e40",
+    "color_text": "#112e40",
+    "color_background": "#f8f3ee",
+    "headings_font": "roboto_n4",
+    "headings_size": 36,
+    "body_font": "roboto_mono_n4",
+    "body_size": 18,
+    "quote_font": "sans-serif",
+    "layout_top_space": 60,
+    "layout_section_space": 10,
+    "grid_aspect": "natural",
+    "product_animation": "product-item--zoom",
+    "show_variant_image": true,
+    "color_sale_price": "#c1cf89",
+    "favicon": "shopify:\/\/shop_images\/Favicon_01_LOTUS.png",
+    "cart_action": "overlay",
+    "cart_notes_enable": false,
+    "cart_additional_buttons": false,
+    "cart_quantity_selector": false,
+    "image_reveal": "opacity",
+    "show_breadcrumb": false,
+    "show_gotop": true,
+    "social_facebook": "",
+    "social_instagram": "",
+    "social_twitter": "",
+    "social_youtube": "",
+    "social_vimeo": "",
+    "social_pinterest": "",
+    "social_tumblr": "",
+    "social_linkedin": "",
+    "social_reddit": "",
+    "social_flickr": "",
+    "social_email": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Lotus-logo-prussian_blue-checkout.png",
+    "checkout_logo_size": "large",
+    "checkout_body_background_color": "#f8f3ee",
+    "checkout_sidebar_background_color": "#f8f3ee",
+    "predictive_search_enabled": true,
+    "predictive_search_show_vendor": false,
+    "predictive_search_show_price": true,
+    "predictive_search_include_articles": true,
+    "predictive_search_include_pages": true,
+    "sections": {
+      "popups": {
+        "type": "popups",
+        "blocks": {
+          "popups-0": {
+            "type": "cookies",
+            "settings": {
+              "popup_bgcolor": "#112e40",
+              "popup_txtcolor": "#f8f3ee",
+              "popup_box_border": false
+            }
+          },
+          "popups-1": {
+            "type": "newsletter",
+            "settings": {
+              "enable": false,
+              "visibility": "all",
+              "show_after": 5,
+              "show_repeat": "week",
+              "title": "Newsletter",
+              "content": "<p>Subscribe and receive exclusive information and offers!<\/p>",
+              "popup_bgcolor": "#111111",
+              "popup_txtcolor": "#ffffff",
+              "popup_box_border": false
+            }
+          }
+        },
+        "block_order": [
+          "popups-0",
+          "popups-1"
+        ],
+        "settings": {
+        }
+      }
+    },
+    "content_for_index": [
+
+    ],
+    "blocks": {
+      "13768625480086291342": {
+        "type": "shopify:\/\/apps\/forms\/blocks\/forms\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
+  },
+  "presets": {
+    "Modern": {
+      "color_accent": "#3f14e1",
+      "color_text": "#000000",
+      "color_background": "#ffffff",
+      "headings_font": "roboto_n4",
+      "body_font": "roboto_n4",
+      "body_size": 18,
+      "headings_size": 36,
+      "grid_aspect": "natural",
+      "show_variant_image": true,
+      "color_sale_price": "#ea0000",
+      "favicon": "",
+      "cart_action": "overlay",
+      "cart_notes_enable": true,
+      "cart_additional_buttons": true,
+      "predictive_search_enabled": true,
+      "predictive_search_show_vendor": false,
+      "predictive_search_show_price": true,
+      "predictive_search_include_articles": true,
+      "predictive_search_include_pages": true,
+      "social_facebook": "",
+      "social_instagram": "",
+      "social_twitter": "",
+      "social_youtube": "",
+      "social_vimeo": "",
+      "social_pinterest": "",
+      "social_tumblr": "",
+      "social_linkedin": "",
+      "social_reddit": "",
+      "social_flickr": "",
+      "social_email": ""
+    },
+    "Single": {
+      "color_accent": "#ffffff",
+      "color_text": "#d3d6c7",
+      "color_background": "#34362b",
+      "headings_font": "roboto_n4",
+      "headings_size": 36,
+      "body_font": "roboto_mono_n4",
+      "body_size": 16,
+      "quote_font": "swiss_721_n1",
+      "grid_aspect": "natural",
+      "show_variant_image": true,
+      "color_sale_price": "#c1cf89",
+      "favicon": "",
+      "cart_action": "overlay",
+      "cart_notes_enable": true,
+      "cart_additional_buttons": true,
+      "predictive_search_enabled": true,
+      "predictive_search_show_vendor": false,
+      "predictive_search_show_price": true,
+      "predictive_search_include_articles": true,
+      "predictive_search_include_pages": true,
+      "social_facebook": "",
+      "social_instagram": "",
+      "social_twitter": "",
+      "social_youtube": "",
+      "social_vimeo": "",
+      "social_pinterest": "",
+      "social_tumblr": "",
+      "social_linkedin": "",
+      "social_reddit": "",
+      "social_flickr": "",
+      "social_email": ""
+    },
+    "Art": {
+      "color_accent": "#147d3b",
+      "color_text": "#000000",
+      "color_background": "#efefef",
+      "headings_font": "cardo_n4",
+      "headings_size": 36,
+      "body_font": "roboto_n4",
+      "body_size": 18,
+      "grid_aspect": "natural",
+      "product_animation": "product-item--move",
+      "product_show_secondary": false,
+      "show_variant_image": true,
+      "color_sale_price": "#dc0000",
+      "image_reveal": "opacity",
+      "favicon": "",
+      "cart_action": "overlay",
+      "cart_notes_enable": true,
+      "cart_additional_buttons": true,
+      "cart_quantity_selector": false,
+      "predictive_search_enabled": false,
+      "predictive_search_show_vendor": false,
+      "predictive_search_show_price": true,
+      "predictive_search_include_articles": false,
+      "predictive_search_include_pages": false,
+      "social_facebook": "",
+      "social_instagram": "",
+      "social_twitter": "",
+      "social_youtube": "",
+      "social_vimeo": "",
+      "social_pinterest": "",
+      "social_tumblr": "",
+      "social_linkedin": "",
+      "social_reddit": "",
+      "social_flickr": "",
+      "social_email": ""
+    }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "{max-width: 1440px;}"
+    ]
+  }
+}
