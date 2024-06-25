@@ -52,7 +52,7 @@ html[dir=ltr] .no-touchevents .newsletter-submit:not(.button):hover svg, html[di
 .newsletter-text {
   color: #112E40;
   margin-bottom: 50px;
-  max-width: 800px;
+  max-width: 840px;
 }
 .newsletter-text:last-child {
   margin-top: 1.25em;

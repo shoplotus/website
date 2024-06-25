@@ -232,6 +232,15 @@
             "caption": "<h6>Registered Nurse<\/h6><p>Stormont Vail Health, Care Manager, 20+ years healthcare experience<\/p>",
             "link": "https:\/\/www.linkedin.com\/in\/kelly-liddle-6a8aa2261\/"
           }
+        },
+        "image_f7UBiC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Team_Profile_Bob-Oslon_45f5e716-1dea-4c80-900b-472f0fcdbf36.png",
+            "title": "Robert Olson LLC",
+            "caption": "<h6>Principal PD Engineer<\/h6><p>Former Apple, Amazon Lab126. Principal PD Consultant, 40+ years experience<\/p>",
+            "link": "https:\/\/www.linkedin.com\/in\/bob-olson-pe\/"
+          }
         }
       },
       "block_order": [
@@ -249,7 +258,8 @@
         "image_gpzGAA",
         "image_ALprFA",
         "image_yQDNrG",
-        "image_KUWW7m"
+        "image_KUWW7m",
+        "image_f7UBiC"
       ],
       "custom_css": [
         ".lazy-image.animation.lazy-image--transparent {border-radius: 10px;}",
@@ -370,7 +380,7 @@
         "text_D4PrtV": {
           "type": "text",
           "settings": {
-            "text": "<p>Lotus benefits everybody, but is optimized for folks experiencing limited mobility, such as older adults, veterans, and persons with disabilities. People are at the center of our innovation, and we are proud to work with partners who share our values and vision. Some of our partners include the U.S. Department of Veterans Affairs, State of New York - Office of the Aging, National Council on Independent Living (NCIL), and Age Tech Collaborative from AARP.<\/p>"
+            "text": "<p>Lotus benefits everybody, but is optimized for folks experiencing limited mobility, such as older adults, veterans, and persons with disabilities. People are at the center of our innovation, and we are proud to work with partners who share our values and vision. Some of our partners include the U.S. Department of Veterans Affairs, State of New York - Office of the Aging, and National Council on Independent Living (NCIL).<\/p>"
           }
         }
       },
@@ -386,7 +396,7 @@
         "@media only screen and (max-width: 600px) {.image-with-text__heading.h2 {max-width: 300px; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Partners_01.png",
+        "image": "shopify:\/\/shop_images\/Partners_02.png",
         "layout": "right-alignment"
       }
     }

@@ -1357,7 +1357,7 @@
           },
           "quick_buy": {
             "name": "Quick buy",
-            "info": "Adds an instant \"add to cart\" button. If the product has variants, it will display a \"quick buy\" popup.",
+            "info": "Adds an instant \"add to cart\" button. If the product has variants, it will display a \"quick buy\"  popup.",
             "label": "Enable quick buy"
           },
           "rating": {
@@ -1730,7 +1730,7 @@
           }
         },
         "email": {
-          "name": "Name & email"
+          "name": "Name"
         },
         "button": {
           "name": "Submit button",

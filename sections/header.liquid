@@ -4,7 +4,7 @@
 >
 
   <div class="header wrapper {% unless section.settings.show_icon_labels %} header--wout-icon-labels {% endunless %}"
-    {% if section.settings.logo_src %} style="--header-logo: {{ section.settings.logo_height }}px;" {% endif %}
+    {% if section.settings.logo_src %} style="--header-logo: {{ section.settings.logo_height }}px" {% endif %}
   >
     
 
@@ -27,13 +27,13 @@
             }
           </style>
 
-          <a class="logo-img" title="{{ shop.name | escape }}" href="{{ routes.root_url }}" style="height:var(--header-logo);display:flex;align-items:center" tabindex="3">
+          <a class="logo-img" title="{{ shop.name | escape }}" href="{{ routes.root_url }}" style="height:var(--header-logo);display:flex;align-items:center" tabindex="0">
             <img src="{{ section.settings.logo_src | image_url }}" alt="{{ shop.name | escape }}" style="max-height:{{ section.settings.logo_height }}px" width="{{ section.settings.logo_src.width }}" height="{{ section.settings.logo_src.height }}" />
           </a>
 
         {% else %}
 
-          <a class="logo-txt" title="{{ shop.name | escape }}" href="{{ routes.root_url }}" tabindex="3">{{ shop.name | escape }}</a>
+          <a class="logo-txt" title="{{ shop.name | escape }}" href="{{ routes.root_url }}" tabindex="0">{{ shop.name | escape }}</a>
 
         {% endif %}
 
@@ -41,7 +41,7 @@
     
     </div>
     
-    <button id="menu-open-button" class="menu-opener" tabindex="2" aria-expanded="false" aria-controls="site-menu-sidebar">
+    <button id="menu-open-button" class="menu-opener" tabindex="0" aria-expanded="false" aria-controls="site-menu-sidebar">
       <span class="menu-opener__icon" aria-label="{{ 'general.menu.menu_title' | t }}" role="img">
         <span class="line"></span><span class="line"></span><span class="line"></span>
       </span>
@@ -51,18 +51,27 @@
     
     <div class="menu-meta">
       <ul>
-        <li>
-          <a {% unless template == 'cart' or settings.cart_action == 'no-overlay' %} id="cart-open-button" aria-expanded="false" aria-controls="site-cart-sidebar" {% endunless %} class="menu-meta__link" href="{{ routes.cart_url }}">
+        <li class=" p-2">
+          {% comment %} <a {% unless template == 'cart' or settings.cart_action == 'no-overlay' %} id="cart-open-button" aria-expanded="false" aria-controls="site-cart-sidebar" {% endunless %} class="menu-meta__link" href="{{ routes.cart_url }}">
             <span class="menu-meta__icon" aria-label="{{ 'general.menu.cart_title' | t }}" style="margin-top: -1px;" role="img">
               {%- render 'theme-symbols', icon: 'cart' -%}
               <span class="menu-meta__count" data-header-cart-count>{{ cart.item_count }}</span>
             </span>
             <span class="lap--hide menu-meta__text">{{ 'general.menu.cart_title' | t }}</span>
-          </a>
-           <a href="https://lotus-smart-ring.myshopify.com/products/pre-order-lotus-ring-3-switch-covers" class="button--border ">PRE-ORDER NOW</a>
+          </a> {% endcomment %}
+           <a href="#" role="button" id="cart-open-button"  class="py-4 px-8 bg-[#112E40] text-[#CCBFA1] rounded-md font-[tenon] font-medium   sm:text-[18px] uppercase  cart-open-button hidden-on-mobile">join waitlist</a>
+           <a href="#" role="button" id="cart-open-button"  class="py-4  cart-open-button show-on-mobile ">
+            <title>Join our waitlist</title>
+            <svg width="40" height="40" viewBox="0 0 64 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M27.6999 12.4997C28.5342 12.4996 29.3428 12.7885 29.9881 13.3171C30.6335 13.8458 31.0758 14.5817 31.2399 15.3997L32.0299 19.3997C32.1045 19.7144 32.2836 19.9944 32.5379 20.1942C32.7921 20.394 33.1066 20.5017 33.4299 20.4997H35.0799C35.2341 20.5042 35.3873 20.473 35.5274 20.4085C35.6675 20.344 35.7908 20.248 35.8877 20.1279C35.9845 20.0078 36.0523 19.867 36.0856 19.7164C36.119 19.5657 36.117 19.4095 36.0799 19.2597L34.3299 10.4997C34.2309 9.98445 33.9716 9.51363 33.5891 9.15447C33.2066 8.79531 32.7204 8.56615 32.1999 8.49972H27.5799C27.2861 8.49544 26.9949 8.55598 26.727 8.67702C26.4592 8.79807 26.2214 8.97666 26.0304 9.20007C25.8395 9.42348 25.7001 9.68624 25.6223 9.96964C25.5444 10.253 25.5299 10.5501 25.5799 10.8397C25.681 11.3219 25.9491 11.7529 26.337 12.0566C26.7249 12.3603 27.2076 12.5173 27.6999 12.4997Z" fill="#112E40"/>
+              <path d="M23.1099 22.8298L20.5599 10.1098C20.4646 9.6012 20.1759 9.14933 19.7545 8.84911C19.333 8.54888 18.8117 8.42368 18.2999 8.49979C18.2 8.49228 18.0997 8.49228 17.9999 8.49979H10.1199C9.62751 8.48224 9.1448 8.63918 8.75691 8.94291C8.36903 9.24663 8.1009 9.67761 7.99985 10.1598C7.94986 10.4494 7.96431 10.7465 8.04217 11.0299C8.12004 11.3133 8.2594 11.576 8.45036 11.7994C8.64131 12.0229 8.87915 12.2014 9.14697 12.3225C9.41478 12.4435 9.70598 12.5041 9.99985 12.4998H13.9999C14.8341 12.4997 15.6427 12.7885 16.2881 13.3172C16.9334 13.8459 17.3758 14.5818 17.5399 15.3998L22.1999 38.6798C22.2958 39.1803 22.2158 39.6986 21.9734 40.1469C21.7311 40.5952 21.3412 40.946 20.8699 41.1398C19.2943 41.8002 17.9715 42.9477 17.0952 44.4143C16.2188 45.8808 15.835 47.5894 15.9999 49.2898C16.2422 51.3035 17.2232 53.1557 18.7528 54.4877C20.2825 55.8196 22.2519 56.5366 24.2799 56.4998H27.9999C27.9999 57.2909 28.2344 58.0643 28.674 58.7221C29.1135 59.3799 29.7382 59.8926 30.4691 60.1953C31.2 60.4981 32.0043 60.5773 32.7802 60.4229C33.5561 60.2686 34.2689 59.8876 34.8283 59.3282C35.3877 58.7688 35.7687 58.0561 35.923 57.2802C36.0773 56.5042 35.9981 55.7 35.6954 54.9691C35.3926 54.2382 34.8799 53.6134 34.2221 53.1739C33.5643 52.7344 32.791 52.4998 31.9999 52.4998C31.8466 52.4908 31.6931 52.4908 31.5399 52.4998C31.4002 52.4851 31.2595 52.4851 31.1199 52.4998H24.1799C23.1613 52.5227 22.1704 52.1675 21.3984 51.5026C20.6264 50.8378 20.1282 49.9105 19.9999 48.8998C19.9438 48.3419 20.0056 47.7784 20.1814 47.246C20.3571 46.7135 20.6429 46.2239 21.02 45.809C21.3972 45.3941 21.8574 45.0632 22.3708 44.8376C22.8841 44.6121 23.4391 44.497 23.9999 44.4998H50.6999C52.3321 44.4989 53.9136 43.9325 55.1753 42.8969C56.4369 41.8613 57.3008 40.4206 57.6199 38.8198L59.9999 27.1798C60.0658 26.8511 60.0571 26.5119 59.9744 26.187C59.8918 25.8622 59.7373 25.56 59.5223 25.3028C59.3073 25.0456 59.0374 24.84 58.7323 24.701C58.4273 24.562 58.095 24.4932 57.7598 24.4998H25.1399C24.6604 24.4996 24.196 24.3329 23.8258 24.0284C23.4555 23.7238 23.2025 23.3002 23.1099 22.8298ZM47.9999 32.4998C47.9999 31.9694 48.2106 31.4606 48.5856 31.0856C48.9607 30.7105 49.4694 30.4998 49.9999 30.4998C50.5303 30.4998 51.039 30.7105 51.4141 31.0856C51.7891 31.4606 51.9999 31.9694 51.9999 32.4998V36.4998C51.9999 37.0302 51.7891 37.5389 51.4141 37.914C51.039 38.2891 50.5303 38.4998 49.9999 38.4998C49.4694 38.4998 48.9607 38.2891 48.5856 37.914C48.2106 37.5389 47.9999 37.0302 47.9999 36.4998V32.4998ZM37.9999 32.4998C37.9999 31.9694 38.2106 31.4606 38.5856 31.0856C38.9607 30.7105 39.4694 30.4998 39.9999 30.4998C40.5303 30.4998 41.039 30.7105 41.4141 31.0856C41.7891 31.4606 41.9999 31.9694 41.9999 32.4998V36.4998C41.9999 37.0302 41.7891 37.5389 41.4141 37.914C41.039 38.2891 40.5303 38.4998 39.9999 38.4998C39.4694 38.4998 38.9607 38.2891 38.5856 37.914C38.2106 37.5389 37.9999 37.0302 37.9999 36.4998V32.4998ZM27.9999 32.4998C27.9999 31.9694 28.2106 31.4606 28.5856 31.0856C28.9607 30.7105 29.4694 30.4998 29.9999 30.4998C30.5303 30.4998 31.039 30.7105 31.4141 31.0856C31.7891 31.4606 31.9999 31.9694 31.9999 32.4998V36.4998C31.9999 37.0302 31.7891 37.5389 31.4141 37.914C31.039 38.2891 30.5303 38.4998 29.9999 38.4998C29.4694 38.4998 28.9607 38.2891 28.5856 37.914C28.2106 37.5389 27.9999 37.0302 27.9999 36.4998V32.4998Z" fill="#112E40"/>
+              <path d="M55.8899 57.4396C56.0321 56.8512 56.039 56.2381 55.9099 55.6466C55.7807 55.0551 55.519 54.5006 55.1445 54.025C54.7699 53.5493 54.2923 53.1649 53.7476 52.9007C53.2029 52.6364 52.6053 52.4993 51.9999 52.4996H42.1099C41.6183 52.4804 41.1359 52.637 40.7492 52.9412C40.3626 53.2454 40.0969 53.6773 39.9999 54.1596C39.9499 54.4492 39.9643 54.7463 40.0422 55.0297C40.12 55.3131 40.2594 55.5759 40.4504 55.7993C40.6413 56.0227 40.8792 56.2013 41.147 56.3223C41.4148 56.4434 41.706 56.5039 41.9999 56.4996H47.9999C47.9978 57.48 48.3558 58.427 49.006 59.1608C49.6562 59.8945 50.5532 60.364 51.5266 60.48C52.5001 60.5959 53.4823 60.3504 54.2867 59.7899C55.091 59.2294 55.6615 58.393 55.8899 57.4396Z" fill="#112E40"/>
+          </svg>
+
+           </a>
         </li>
       </ul>
-    </div>
+    </div> 
   </div>
 
   <div style="display:none" data-js-site-navigation-content>

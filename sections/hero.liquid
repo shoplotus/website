@@ -33,9 +33,7 @@
           <div class="image-with-text__description rte" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
 
         {%- when 'button' -%}
-          <a class="image-with-text__button button button--underline" href="{{ block.settings.button_link }}" title="{{ block.settings.button_label | escape }}" {{ block.shopify_attributes }}>
-            {{ block.settings.button_label | escape }}
-            <span class="svg svg__arrow" aria-hidden="true">{%- render 'theme-symbols', icon: 'arrow-right' -%}</span>
+          <a href="/products/pre-order-lotus-ring-3-switch-covers" class="py-4 px-8 text-[#112E40] bg-[#CCBFA1] rounded-md font-[tenon] font-medium   sm:text-[18px] uppercase  "  >Start your pre-order
           </a>
 
       {%- endcase -%}

@@ -9,6 +9,14 @@ endif
 <html class="no-js" lang="{{ request.locale.iso_code }}" dir="{{ direction }}">
 <head>
   <link rel="stylesheet" href="https://use.typekit.net/pfe7apj.css">
+  {{'application.css'| asset_url |  stylesheet_tag}}
+  {{'application.js'| asset_url  | script_tag}}
+  {% comment %} {{'sidebar.js' |  asset_url | script_tag}} {% endcomment %}
+  
+
+  
+
+
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0">
@@ -112,6 +120,8 @@ endif
 
   {%- sections 'header-group' -%}
 
+  {%-  sections 'drawer' -%} 
+
   <sidebar-drawer id="site-menu-sidebar" class="sidebar sidebar--left" tabindex="-1" role="dialog" aria-modal="true"></sidebar-drawer>
   
   {{ "component-product-item.css" | asset_url | stylesheet_tag }}
@@ -128,19 +138,22 @@ endif
   {%- if settings.cart_action == 'overlay' -%}
     {%- unless template contains 'cart' -%}
   
-      <sidebar-drawer id="site-cart-sidebar" class="sidebar sidebar--right" tabindex="-1" role="dialog" aria-modal="true">
+      <sidebar-drawer id="site-cart-sidebar" class="sidebar sidebar--right " tabindex="-1" role="dialog" aria-modal="true">
   
-        <div class="sidebar__container">
+        <div class="sidebar__container" tabindex="-1" >
   
           <div class="sidebar__close">
             <button class="close-sidebar" aria-label="{{ 'general.menu.close_button' | t }}">
               <span class="aria-hidden">{%- render 'theme-symbols', icon: 'close' -%}</span>
+              
               <span class="close-sidebar__text">{{ 'general.menu.close_button' | t }}</span>
             </button>
           </div>
   
           {%- render 'cart-form', type: 'sidebar' -%}
-          {%- render 'cart-subtotal' -%}
+          {% render 'klaviyo-waitlist-form' %}
+         
+          {% comment %} {%- render 'cart-subtotal' -%} {% endcomment %}
   
         </div>
   

@@ -1,98 +1,206 @@
-<div id="AjaxCartSubtotal">
-  
-  <div class="cart__footer {% if cart.item_count == 0 %} cart--empty {% endif %}">
-  <div class="waitlist-form">
-    <h3>Join the waitlist now and be the first to know about our upcoming launch.</h3>
 
-    <form id="WaitlistForm">
-      <input tabindex= "-1" type="email" name="waitlist_email" placeholder="Enter your email" required>
-      <button type="submit" class="button button--solid">Join Waitlist</button>
-    </form>
+{% comment %} <div class="cart__footer {% if cart.item_count == 0 %} cart--empty {% endif %}"> {% endcomment %}
+  {% comment %} <div id="AjaxCartSubtotal">
+  <div class="siderbar" id="site-cart-sidebar">
+    <div class="sidebar-content">
+      <button class="close-sidebar"></button>
+      
+      {%form 'contact'%}
+      {{ form.errors | default_errors }}
+
+
+        <h3 class="text-[25px] font-medium">Join our waitlist for exclusive updates on our upcoming launch. Early access and special offers await!</h3>
+        <div>
+    <label for="waitlist_name">Name:</label>
+    <input class="" type="text" id="waitlist_name" name="contact[name]" placeholder="John Doe" required>
   </div>
-    {%- if settings.cart_notes_enable -%}
-      <textarea
-        name="note"
-        id="cartSpecialInstructions"
-        placeholder="{{ 'cart.note' | t }}"
-        aria-label="{{ 'cart.note' | t }}"
-        form="cart"
-      >{{ cart.note }}</textarea>
-    {%- endif -%}
+  <div>
+    <label for="waitlist_email">Email:</label>
+    <input class="" type="email" id="waitlist_email" name="contact[email]" placeholder="b@t.com" required>
+  </div>
+  <div>
+    <label for="waitlist_zipCode">Zipcode</label>
+    <input class="" type="text" id="waitlist_zipCode" name="contact[zip]" placeholder="" required>
+  </div>
+        <button type="submit" class="sm:py-4 py-2 px-3 sm:px-8 bg-[#112E40] text-[#63CBA3] rounded-md font-[tenon] font-medium text-[12px] sm:text-[18px] uppercase">Join Waitlist</button>
 
-    <div class="cart-out">
+      <div id="success_message" style="display:none;">
+      <h4>Thanks for joining our waitlist. </h4>
+        <p>Would you consider purchasing the Lotus kit for $299 when it launches?</p>
+        <button id="yes-button" type="button" onclick="sendFollowUpData('yes')" class="py-4 px-8 text-[#112E40] bg-[#CCBFA1] rounded-lg font-[tenon] font-medium text-[22px] uppercase">Yes</button>
+        <button id="no-button" type="button" onclick="sendFollowUpData('no')" class="py-4 px-8 text-[#112E40] bg-[#CCBFA1] rounded-lg font-[tenon] font-medium text-[22px] uppercase">No</button>
+      </div>
+
+      {% endform %}
+    </div>
+  </div>
+</div> {% endcomment %}
+ {% form 'contact' %}
+    {{ form.errors | default_errors }}
+  
+    <div class="first-name">
+      <label for="first-name">First name</label>
+      <input type="text" name="first_name" id="first-name" required />
+    </div>
+  
+    <div class="last-name">
+      <label for="last-name">Last name</label>
+      <input type="text" name="last_name" id="last-name" required />
+    </div>
+  
+    <div class="email">
+      <label for="email">Enter email address</label>
+      <input type="email" name="email" id="email" required />
+    </div>
+  
+    <div class="phone">
+      <label for="phone">Phone</label>
+      <input type="text" name="phone" id="phone" required />
+    </div>
+  
+    <div class="button">
+      <button id="contact_form" type="submit">Join waitlist </button>
+    </div>
+  {% endform %}
+  
+
+
+{% comment %} <script>
+  // Form submission
+  document.getElementById('waitlistForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    var form = event.target;
+    var formData = new FormData(form);
+
+    fetch('http://localhost:9292/api/v1/users/apps/waitlist-app/submit', {
+      method: 'POST',
+      body: formData
+    })
+    .then(response => response.text())
+    .then(data => {
+      // Handle successful submission
+      document.getElementById('waitlistForm').style.display = 'none';
+      document.getElementById('success_message').style.display = 'block';
+    })
+    .catch(error => {
+      console.error('Error:', error);
+      // Handle error
+    });
+  });
+
+  // Follow-up data submission
+  function sendFollowUpData(followUp) {
+    const formData = new FormData();
+    formData.append('email', document.getElementById('waitlist_email').value);
+    formData.append('follow_up', followUp);
+
+    fetch('http://localhost:9292/apps/waitlist-app/follow-up', {
+      method: 'POST',
+      body: formData
+    })
+    .then(response => response.text())
+    .then(data => {
+      // Handle successful submission
+      document.getElementById('success_message').innerHTML = '<p>Submission successful. Thank you!</p>';
+    })
+    .catch(error => {
+      console.error('Error:', error);
+      // Handle error
+    });
+  }
+</script> {% endcomment %}
+
+
+    
+    {% comment %} {%- if settings.cart_notes_enable -%}
+      <textarea
+      name="note"
+      id="cartSpecialInstructions"
+      placeholder="{{ 'cart.note' | t }}"
+      aria-label="{{ 'cart.note' | t }}"
+      form="cart"
+      >{{ cart.note }}</textarea>
+    {%- endif -%} {% endcomment %}
+    {% comment %} <div class="cart-out">
       <div id="CartDetails">
         {%- if cart.cart_level_discount_applications != blank -%}
           <div>
             <p id="CartSubTotal">
               {{ 'cart.subtotal' | t }}
               <span>{{ cart.items_subtotal_price | money }}</span>
-            </p>
-            <p id="CartDiscounts">
-              {{ 'cart.discounts' | t }}
-              {%- for discount_application in cart.cart_level_discount_applications -%}
-                <span style="display: inline-block">
-                  {{- discount_application.title }}
-                  <span style="display: inline-block"
+              </p>
+              <p id="CartDiscounts">
+                {{ 'cart.discounts' | t }}
+                {%- for discount_application in cart.cart_level_discount_applications -%}
+                  <span style="display: inline-block">
+                    {{- discount_application.title }}
+                    <span style="display: inline-block"
                     >(-{{ discount_application.total_allocated_amount | money | strip }})</span
-                  ></span
-                >
-              {%- endfor -%}
-            </p>
-          </div>
-        {%- endif -%}
-      </div>
-
-      <p id="CartTotal">
-        {{ 'cart.total' | t }}
-        <span>{{ cart.total_price | money }}</span>
-      </p>
-      <span class="info">
-        {%- liquid
-          if cart.taxes_included and shop.shipping_policy.body != blank
-            echo 'cart.policies.taxes_included_and_shipping_policy_html' | t: link: shop.shipping_policy.url
-          elsif cart.taxes_included
-            echo 'cart.policies.taxes_included_but_shipping_at_checkout' | t
-          elsif shop.shipping_policy.body != blank
-            echo 'cart.policies.taxes_and_shipping_policy_at_checkout_html' | t: link: shop.shipping_policy.url
-          else
-            echo 'cart.policies.taxes_and_shipping_at_checkout' | t
-          endif
-        -%}
-      </span>
-
-      <div class="cart-actions buttons-holder {% if additional_checkout_buttons and settings.cart_additional_buttons and type == 'page' %} cart-actions--additional-checkout-buttons {% endif %}">
-        <a id="ViewCart" href="{{ routes.cart_url }}" class="button button--border button--align">
-          {{- 'cart.view_cart' | t -}}
-        </a>
-
-        <noscript>
-          <button name="update" class="button button--border button--wide" form="cart">{{ 'cart.update' | t }}</button>
-        </noscript>
-
-        <button
-          id="CheckOut"
-          class="button button--solid {% if additional_checkout_buttons and settings.cart_additional_buttons and type == 'page' %} button--wide {% endif %}"
-          type="submit"
-          name="checkout"
-          form="cart"
-        >
-          {{ 'cart.checkout' | t }}
-        </button>
-
-        {%- unless template contains 'order' -%}
+                    ></span
+                    >
+                  {%- endfor -%}
+                  </p>
+                  </div>
+                {%- endif -%}
+                </div>
+                
+                <p id="CartTotal">
+                  {{ 'cart.total' | t }}
+                  <span>{{ cart.total_price | money }}</span>
+                  </p>
+                  <span class="info">
+                    {%- liquid
+                    if cart.taxes_included and shop.shipping_policy.body != blank
+                    echo 'cart.policies.taxes_included_and_shipping_policy_html' | t: link: shop.shipping_policy.url
+                    elsif cart.taxes_included
+                    echo 'cart.policies.taxes_included_but_shipping_at_checkout' | t
+                    elsif shop.shipping_policy.body != blank
+                    echo 'cart.policies.taxes_and_shipping_policy_at_checkout_html' | t: link: shop.shipping_policy.url
+                    else
+                    echo 'cart.policies.taxes_and_shipping_at_checkout' | t
+                    endif
+                    -%}
+                    </span>
+                    
+                  <div class="cart-actions buttons-holder {% if additional_checkout_buttons and settings.cart_additional_buttons and type == 'page' %} cart-actions--additional-checkout-buttons {% endif %}">
+                    <a id="ViewCart" href="{{ routes.cart_url }}" class="button button--border button--align">
+                      {{- 'cart.view_cart' | t -}}
+                      </a>
+                      
+                      <noscript>
+                        <button name="update" class="button button--border button--wide" form="cart">{{ 'cart.update' | t }}</button>
+                        </noscript>
+                        
+                        <button
+                        id="CheckOut"
+                      class="button button--solid {% if additional_checkout_buttons and settings.cart_additional_buttons and type == 'page' %} button--wide {% endif %}"
+                        type="submit"
+                        name="checkout"
+                        form="cart"
+                        >
+                        {{ 'cart.checkout' | t }}
+                        </button>
+                        
+                        {%- unless template contains 'order' -%}
           {%- if additional_checkout_buttons and settings.cart_additional_buttons -%}
             <div class="additional-checkout-buttons additional-checkout-buttons--vertical">
               {{ content_for_additional_checkout_buttons }}
-            </div>
-          {%- endif -%}
-        {%- endunless -%}
-      </div>
-    </div>
+              </div>
+            {%- endif -%}
+          {%- endunless -%}
+          </div>
+        </div> {% endcomment %}
+        
+        {% comment %} <div class="cart-continue ccart--space" role="button">
+          <a href="{{ routes.all_products_collection_url }}" class="button button--wide button--align">
+            <span class="ccart--update">{{ 'cart.continue_browsing' | t }}</span>
+            </a>
+          </div> {% endcomment %}
+        {% comment %} </div> {% endcomment %}
+        {% comment %} 
+        <div role="button" class="uppercase underline cursor-pointer text-center font-[tenon] my-8 py-8">
+          <a href="{{ routes.all_products_collection_url }}">continue browsing</a>
+        </div> {% endcomment %}
+      
+     
 
-    <div class="cart-continue ccart--space" role="button">
-      <a href="{{ routes.all_products_collection_url }}" class="button button--wide button--align">
-        <span class="ccart--update">{{ 'cart.continue_browsing' | t }}</span>
-      </a>
-    </div>
-  </div>
-</div>

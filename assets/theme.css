@@ -409,7 +409,7 @@ text-decoration:underline;
   line-height: 1;
   padding: 0 var(--button-padding);
   height: var(--button-height);
-  background: #63CBA3;
+  background: #112E40;
   font-family: 'tenon', sans serif !important;
   font-weight: 500 !important;
   display: flex;
@@ -4757,3 +4757,23 @@ font-family: tenon, sans-serif !important;
   font-family: tenon, sans-serif !important;
 }
 
+.hidden-on-mobile {
+  display: inline-block; /* Ensure it's visible by default */
+}
+
+.show-on-mobile {
+  display: none; /* Hidden by default */
+}
+
+.svg-icon {
+  color: #112E40; /* Default color */
+}
+
+@media (max-width: 768px) {
+  .hidden-on-mobile {
+      display: none; /* Hide the button on mobile */
+  }
+  .show-on-mobile {
+      display: inline-block; /* Show the SVG on mobile */
+  }
+}

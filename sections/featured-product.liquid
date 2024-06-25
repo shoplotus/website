@@ -145,7 +145,7 @@
                       {%- endif -%} 
 
                       {%- if request.page_type != "password" -%}
-                        <button type="submit" name="add" class="product__add-to-cart button button--border {% unless current_variant.available %} disabled {% endunless %}" data-js-product-add-to-cart>
+                        {% comment %} <button type="submit" name="add" class="product__add-to-cart button button--border {% unless current_variant.available %} disabled {% endunless %}" data-js-product-add-to-cart>
                           <span class="add-to-cart__text" data-js-product-add-to-cart-text {% if block.settings.show_preorder_label %} data-show-preorder-wording {% endif %}>
                             {%- liquid
                               if current_variant.available
@@ -159,7 +159,7 @@
                               endif
                             -%}
                           </span>
-                        </button>
+                        </button> {% endcomment %}
                       {%- endif -%}
 
                     </div>
@@ -188,7 +188,10 @@
 
         {%- when 'product_link' -%}
           {%- unless product == blank -%}
-            <a class="featured-product-link" href="{{ product.url }}" title="{{ 'products.view_product_details' | t }}">{{ 'products.view_product_details' | t }}</a>
+            <div>
+
+              <a class="featured-product-link button text-center mb-2" href="{{ product.url }}" title="{{ 'products.view_product_details' | t }}">{{ 'products.view_product_details' | t }}</a>
+            </div>
           {%- endunless -%}
 
         {%- endcase -%}

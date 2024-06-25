@@ -135,12 +135,11 @@
                 <div class="image-with-text-overlay__description rte">{{ block.settings.description }}</div>
               {%- endif -%}
 
-              {%- if block.settings.button_label != blank -%}
-                <a class="image-with-text-overlay__button" href="{{ block.settings.button_link }}" title="{{ block.settings.button_label | escape }}">
-                  {{ block.settings.button_label | escape }}
-  
-                </a>
-              {%- endif -%}
+               
+                <button class="image-with-text-overlay__button cart-open-button"   id="cart-open-button">  Join our waitlist 
+                
+                </button>
+          
 
             </div>
 

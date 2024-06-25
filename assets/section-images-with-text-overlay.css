@@ -294,7 +294,8 @@ a.selected a .image-with-text-overlay__heading span {
   padding-bottom: 20px;
   padding-left: 40px;
   padding-right: 40px;
-  background: #63cba3;
+  color: #CCBFA1;
+  background: #112e40;
 }
 .image-with-text-overlay .onboarding-svg {
   background: rgba(0, 0, 0, 0.35);

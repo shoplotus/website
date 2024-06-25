@@ -1,13 +1,13 @@
 <cart-form id="AjaxCartForm">
 
-  <span class="site-cart-heading sidebar__caption">{{ 'cart.items_count' | t: count: cart.item_count }}</span>
+  {% comment %} <span class="site-cart-heading sidebar__caption">{{ 'cart.items_count' | t: count: cart.item_count }}</span>   {% endcomment %}
 
   <form action="{{ routes.cart_url }}" method="post" novalidate class="cart" id="cart">
     
 
-    <div class="cart-holder" data-items="{{ cart.items.size }}">
+    <div class="cart-holder" data-items="{{ cart.items.name }}">
 
-      <div class="cart-items">
+      <div class="cart-items ">
 
         {%- for item in cart.items -%}
 
@@ -15,14 +15,14 @@
 
             <div>
 
-              <a href="{{ item.url }}" class="thumbnail">
+              <a href="{{ item.url }}" class="thumbnail ">
                 {%- render 'lazy-image-small', image: item.image -%}
               </a>
 
-              <div class="content">
+              <div class="content ">
 
                 <a href="{{ item.url }}">
-                  <span class="title">{{ item.product.title | escape }}</span>
+                  <span class="title  ">{{ item.product.title | escape }}</span>
                   {%- unless item.product.has_only_default_variant -%}
                     <span class="info variant-title">({{ item.variant.title | escape }})</span>
                   {%- endunless -%}
@@ -35,7 +35,8 @@
                   </span>
                 {%- endif -%}
             
-                <div class="price">
+
+                <div class="price ">
 
                   {%- unless item.gift_card -%}
                     <div class="item__price-list">

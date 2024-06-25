@@ -18,7 +18,6 @@
     "cart_action": "overlay",
     "cart_notes_enable": false,
     "cart_additional_buttons": false,
-    "cart_quantity_selector": false,
     "image_reveal": "opacity",
     "show_breadcrumb": false,
     "show_gotop": true,
@@ -81,8 +80,8 @@
 
     ],
     "blocks": {
-      "13768625480086291342": {
-        "type": "shopify:\/\/apps\/forms\/blocks\/forms\/8744a304-fcb1-4347-b211-bb6b4759a76a",
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {
         }

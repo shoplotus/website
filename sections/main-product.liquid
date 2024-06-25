@@ -1,5 +1,6 @@
 {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
 
+
 <product-page
   id="product-{{ section.id }}"
   class="product"
@@ -69,12 +70,12 @@
               style="display:block"
               {{ block.shopify_attributes }}
             >
-              {%- render 'product-variants',
+              {% comment %} {%- render 'product-variants',
                 product: product,
                 color_swatches: block.settings.show_color_swatches,
                 style: block.settings.variants_style,
                 id: section.id
-              -%}
+              -%} {% endcomment %}
 
               {%- if block.settings.show_quantities != 'no' -%}
                 <span
@@ -95,18 +96,18 @@
                     }{%- unless forloop.last -%},{%- endunless -%}
                   {%- endfor -%}]
                 {%- endcapture -%}
-                <span
+                {% comment %} <span
                   class="variant-quantity-data"
                   data-js-variant-quantity-data
                   data-inventory="{{ variant_inventory }}"
-                ></span>
+                ></span> {% endcomment %}
               {%- endif -%}
 
               <noscript>
                 <select
                   name="id"
                   id="Variants-{{ section.id }}"
-                  class="productSelect"
+                  class="productSelect visually-hidden"
                   {% if product.has_only_default_variant %}
                     style="display:none!important"
                   {% endif %}
@@ -152,14 +153,14 @@
                 id: product_form_id,
                 class: 'form',
                 novalidate: 'novalidate',
-                data-type: 'add-to-cart-form'
+                data-type: 'cart-open-button'
               -%}
                 <template>
                   <input type="hidden" name="id" value="{{ current_variant.id }}">
                 </template>
-                <script>
+                {% comment %} <script>
                   document.getElementById('add-to-cart-{{ section.id }}').querySelector('form').append(document.getElementById('add-to-cart-{{ section.id }}').querySelector('template').content.cloneNode(true));
-                </script>
+                </script> {% endcomment %}
 
                 {%- liquid
                   if product.gift_card? and block.settings.show_gift_card_recipient
@@ -167,9 +168,17 @@
                   endif
                 -%}
 
-                <div class="product__cart-actions cart-actions buttons-holder">
-                  <div class="product__cart-actions-holder">
-                    {%- if block.settings.show_quantity_selector -%}
+                <div class="  ">
+                   
+                  <div class=" ">
+                    <button
+                    id=" "
+                      type="button"
+                      class="py-4 px-8  bg-[#112E40] text-[#CCBFA1] rounded font-[tenon] font-medium sm:text-[18px] uppercase  cart-open-button cart-open "
+                      >
+                        Join Waitlist
+                    </button>
+                    {% comment %} {%- if block.settings.show_quantity_selector -%}
                       <input
                         type="number"
                         name="quantity"
@@ -178,15 +187,10 @@
                         class="product__quantity"
                         aria-label="{{ 'products.page.quantity' | t }}"
                       >
-                    {%- endif -%}
+                    {%- endif -%} {% endcomment %}
 
-                    <button
-                      type="submit"
-                      name="add"
-                      class="product__add-to-cart button button--border {% unless current_variant.available %} disabled {% endunless %}"
-                      data-js-product-add-to-cart
-                    >
-                      <span
+                   
+                      {% comment %} <span
                         class="add-to-cart__text"
                         data-js-product-add-to-cart-text
                         {% if block.settings.show_preorder_label %}
@@ -204,8 +208,8 @@
                             echo 'products.page.inventory.sold_out_variant' | t
                           endif
                         -%}
-                      </span>
-                    </button>
+                      </span> {% endcomment %}
+            
                   </div>
 
                   {%- liquid
@@ -222,6 +226,7 @@
                 </div>
 
               {%- endform -%}
+             
             </product-form>
 
           {%- when 'collapsible_tab' -%}
@@ -235,17 +240,17 @@
             -%}
 
             {%- if show_block -%}
-              <toggle-tab class="toggle" {{ block.shopify_attributes }}>
+              <toggle-tab class="toggle opened" {{ block.shopify_attributes }}>
                 <h2
                   class="toggle__title text-size--smaller"
                   data-js-title
                   tabindex="0"
-                  aria-expanded="false"
+                  aria-expanded="true"
                   aria-controls="toggle-{{ block.id }}"
                 >
                   {{ block.settings.heading | escape }}
                 </h2>
-                <div id="toggle-{{ block.id }}" data-js-content class="toggle__content rte">
+                <div id="toggle-{{ block.id }}" data-js-content class="toggle__content rte" style=" display: block;">
                   {%- liquid
                     echo block.settings.content
                     unless block.settings.page == blank
@@ -343,7 +348,7 @@
                           >
                         </a>
 
-                        <div class="product-related__item-price">
+                        <div class="product-related__item-price visually-hidden">
                           {%- liquid
                             assign price = product.price | money
 
@@ -373,7 +378,7 @@
                               endif
                             endif
 
-                            if variant.unit_price_measurement
+                          if variant.unit_price_measurement
                               echo '<span class="item__unit">'
                               echo variant.unit_price | money
                               echo ' / '
@@ -612,6 +617,7 @@
 
 <script src="{{ 'component-product-form.js' | asset_url }}" defer></script>
 <script src="{{ 'section-main-product.js' | asset_url }}" defer></script>
+<script src="{{ 'section-header.js' | asset_url }}" defer></script>
 
 {% schema %}
 {

@@ -15,17 +15,27 @@ if ( typeof MainHeader !== 'function' ) {
 
 			const sidebarCart = document.getElementById('site-cart-sidebar');
 
-			if ( document.getElementById('cart-open-button') ) {
-				document.getElementById('cart-open-button').addEventListener('click', e=>{
+			if ( document.querySelectorAll('.cart-open-button') ) {
+				const buttons = document.querySelectorAll('.cart-open-button');
+
+				buttons.forEach((button) => button.addEventListener('click', (e) => {
 					e.preventDefault();
-					document.getElementById('cart-open-button').setAttribute('aria-expanded', 'true');
+					button.setAttribute('aria-expanded', 'true');
 					sidebarCart.show();
-				})
-				document.getElementById('cart-open-button').addEventListener('keyup', e=>{
-					if ( e.keyCode == window.KEYCODES.RETURN ) {
-						sidebarCart.querySelector('.close-sidebar').focus();
-					}
-				})
+						// const cart = document.querySelector('.site-cart-sidebar');
+						// cart.classList.add('sidebar-opened');
+				}));
+				
+				// document.querySelectorAll('cart-open-button').addEventListener('click', e=>{
+				// 	e.preventDefault();
+				// 	document.getElementById('cart-open-button').setAttribute('aria-expanded', 'true');
+				// 	sidebarCart.show();
+				// })
+				// document.getElementById('cart-open-button').addEventListener('keyup', e=>{
+				// 	if ( e.keyCode == window.KEYCODES.RETURN ) {
+				// 		sidebarCart.querySelector('.close-sidebar').focus();
+				// 	}
+				// })
 			}
 
 			// drawer menu connection

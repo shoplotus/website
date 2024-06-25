@@ -18,7 +18,7 @@
 
         <h2 class="h4" style="margin-bottom:2em">{{ section.settings.title | escape }}</h2>
           
-        <div class="simple-grid">
+        <div class="simple-grid font-[tenon]">
 
           {%- for block in section.blocks -%}
 
@@ -27,7 +27,7 @@
               {%- when 'email' -%}
                 <div class="one-half" {{ block.shopify_attributes }}>
                   <label for="ContactFormName" class="text-size--small info">{{ 'general.contact_form.name' | t }}</label>
-                  <input type="text" id="ContactFormName" class="input-full" name="contact[name]" autocapitalize="words" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" required>
+                  <input type="text" id="ContactFormName" class="input-full font-[tenon]" name="contact[name]" autocapitalize="words" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" required>
                 </div>
                 <div class="one-half">
                   <label for="ContactFormEmail" class="text-size--small info">{{ 'general.contact_form.email' | t }}</label>
@@ -35,7 +35,7 @@
                 </div>
 
               {%- when 'field' -%}
-                <div class="one-whole" {{ block.shopify_attributes }}>
+                <div class="one-whole font-[tenon]" {{ block.shopify_attributes }}>
                   {%- assign id = block.id | prepend: 'field' -%}
                   <label for="{{ id }}" class="text-size--small info">{{ block.settings.label | escape }}{% if block.settings.required %} * {% endif %}</label>
                   {%- if block.settings.type == 'input' -%}

@@ -16,7 +16,6 @@
         },
         "variant_picker": {
           "type": "variant_picker",
-          "disabled": true,
           "settings": {
             "variants_style": "radio",
             "show_color_swatches": true,
@@ -25,7 +24,6 @@
         },
         "buy_buttons": {
           "type": "buy_buttons",
-          "disabled": true,
           "settings": {
             "show_quantity_selector": true,
             "show_preorder_label": false,
@@ -48,9 +46,9 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Product Details",
-            "content": "<p>A pre-order is a refundable deposit that holds your place in line to purchase the first-ever Lotus Ring. You'll be notified as soon as production starts. Each kit contains:<\/p><ul><li>1 Lotus Ring <\/li><li>2 Lotus Switch Covers<\/li><li>1 USB-C charge cable<\/li><li>1 Lotus Ring charging platform<\/li><\/ul><p>*We are working hard to implement all listed features in the first generation of the Lotus Ring. However, product development is underway, and not all features may make it into the final product as originally planned.<\/p>",
+            "content": "<p>You'll be notified as soon as production starts. Each kit contains 1 Lotus Ring, Switch Covers, a USB-C charge cable, and a Lotus Ring charging platform.<\/p>",
             "page": "",
-            "hide_block_if": true
+            "hide_block_if": false
           }
         },
         "collapsible_tab_n4CVif": {
@@ -213,6 +211,7 @@
       "block_order": [
         "button_V9Fd6C"
       ],
+      "disabled": true,
       "custom_css": [
         ".button--underline {font-family: tenon, sans serif;}",
         "h3 {font-family: tenon, sans serif;}"
@@ -287,6 +286,9 @@
         "text_DWMYy6",
         "text_hfzQnp"
       ],
+      "custom_css": [
+        ".section-header__title.h4 {padding-top: 7.5rem;}"
+      ],
       "settings": {
         "title": "Media Mentions",
         "text_alignment": "center",
@@ -320,7 +322,7 @@
         "@media only screen and (max-width: 600px) {.image-with-text__heading.h2 {font-size: 40px; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Early_Investor_Logos_bca0f9ab-3944-4798-935f-189930086b7e.png",
+        "image": "shopify:\/\/shop_images\/Early_Investor_Logos-2.png",
         "layout": "right-alignment"
       }
     },
@@ -330,8 +332,8 @@
         "text_p7njfF": {
           "type": "text",
           "settings": {
-            "title": "What does it mean to pre-order a Lotus Kit?",
-            "body": "<p>Pre-ordering with a $4.99 deposit puts you among the first to receive the Lotus Kit. The pre-order deposit is not the full amount (the remainder will be charged when your order ships) and It does not guarantee a specific delivery date. It <em>does<\/em>, however, get you a 15% discount on the Lotus Kit. The deposit is non-refundable, but if you change your mind closer to shipping in Fall 2024, you can cancel your pre-order. <\/p>",
+            "title": "What does it mean to join the waitlist?",
+            "body": "<p>Joining the waitlist as an early adopter means you will be one of the first to receive the Lotus Kit at a discounted rate. You will also receive the insider scoop as we prepare for launch in Fall 2024!<\/p>",
             "select_icon": "none"
           }
         },
@@ -347,7 +349,7 @@
           "type": "text",
           "settings": {
             "title": "Can the Lotus Ring get wet?",
-            "body": "<p>Yes! The Lotus Ring is waterproof. You don’t need to worry about taking it off to shower or wash your hands. In fact, we anticipate that one of its most popular uses will be to control water faucets when hands are full (or dirty). <\/p>",
+            "body": "<p>Yes! The Lotus Ring is waterproof. You don’t need to worry about taking it off to shower or wash your hands. In fact, we anticipate the one of its most popular uses will be to control things when your hands are full (or dirty).<\/p>",
             "select_icon": "none"
           }
         },
@@ -355,7 +357,7 @@
           "type": "text",
           "settings": {
             "title": "Can I share my Lotus Ring with family and friends?",
-            "body": "<p>We recommend that everyone have their own Lotus Ring. However, all Lotus Rings work with all Lotus Switch Covers, so your family and friends can use theirs in your space, and vice versa.<\/p>",
+            "body": "<p>All Rings work with all Switch Covers, so your family and friends can use theirs in your Lotus space, and vice versa. It's like a telephone - the more people that have it, the more beneficial your own device gets!<\/p>",
             "select_icon": "none"
           }
         },
@@ -371,7 +373,7 @@
           "type": "text",
           "settings": {
             "title": "Where can I use the Lotus Ring?",
-            "body": "<p>Wherever home is for you. Even if you rent your home, relocate often, or simply love to travel. It is completely portable and requires zero installation. <\/p>",
+            "body": "<p>Wherever home is for you - whether you own, rent, relocate often, or simply love to travel. It is completely portable and requires zero installation. <\/p>",
             "select_icon": "none"
           }
         }
@@ -400,8 +402,8 @@
         "image_EmdYbY": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/product-footer_3cd11266-3254-4317-ad22-b2a2a3c476e0.png",
-            "heading": "$50 off for early adopters",
+            "image": "shopify:\/\/shop_images\/Lotus-footer-1-4.png",
+            "heading": "Be an early adopter",
             "description": "",
             "button_label": "Pre-Order Now",
             "button_link": "shopify:\/\/products\/pre-order-lotus-ring-3-switch-covers"

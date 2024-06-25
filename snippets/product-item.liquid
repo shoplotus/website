@@ -68,7 +68,9 @@
 
       {%- if settings.enable_quick_buy and product.available -%}
         {%- if product.has_only_default_variant -%}
+
           <quick-add-to-cart class="quick-add-to-cart">
+            
             <product-form
               {% if settings.cart_action == 'overlay' %}
                 data-ajax-cart
@@ -90,11 +92,14 @@
                       {%- render 'theme-symbols', icon: 'cart-plus' -%}
                     </span>
                   </button>
+                  
                 {%- endform -%}
               </div>
             </product-form>
           </quick-add-to-cart>
+          
         {%- else -%}
+
           <quick-view-product class="quick-add-to-cart">
             <button
               data-href="{{ product.url }}"
