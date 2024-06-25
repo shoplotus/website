@@ -289,12 +289,12 @@ a.selected a .image-with-text-overlay__heading span {
   font-weight: 500 !important;
   margin-top: 2em;
   border: none;
-  border-radius: 10px;
+  border-radius: 8px;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 40px;
   padding-right: 40px;
-  color: #CCBFA1;
+  color: #F1E6D9;
   background: #112e40;
 }
 .image-with-text-overlay .onboarding-svg {

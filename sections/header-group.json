@@ -25,7 +25,7 @@
         "show_locale_selector": true,
         "show_country_selector": false,
         "show_social_icons": true,
-        "bar_bgcolor": "#ccbfa1",
+        "bar_bgcolor": "#cb9e3e",
         "bar_txtcolor": "#112e40",
         "border_color": "rgba(0,0,0,0)"
       }
